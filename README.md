@@ -5,9 +5,12 @@ Repository for bibliographic references used in the make of a SLR for bioinforma
 # SLR
 ## Motivation : research questions  
 RQ1: What frameworks have been used to model and automate RNSEQ experiments?
+
 RQ2: What approaches to automatic bio-pipelines allow for customization?
+
 RQ3: Which are the most common configuration parameters for bio-pipelines, and what is the 
 most common format for defining them?
+
 RQ4: What are the needs covered by automatic reports in regards to replicability of the 
 experiment?
 
