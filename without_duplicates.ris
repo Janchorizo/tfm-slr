@@ -1,0 +1,18 @@
+TY  - JOUR
+T1  - Pan-cancer analysis of transcriptional metabolic dysregulation using The Cancer Genome Atlas
+A1  - Rosario, S R
+A1  - Long, M D
+A1  - Affronti, H C
+A1  - Rowsam, A M
+A1  - Eng, K H
+A1  - Smiraglia, D J
+Y1  - 2018///
+JF  - Nature Communications
+VL  - 9
+IS  - 1
+CY  - Department of Cancer Genetics and Genomics, Roswell Park Cancer Institute, Buffalo, NY  14263, United States
+DO  - 10.1038/s41467-018-07232-8
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85058674193&doi=10.1038%2Fs41467-018-07232-8&partnerID=40&md5=1d133d3b0cde5c436c6c7abfc2ee0f5a
+N1  - Export Date: 19 April 2019
+N2  - Understanding metabolic dysregulation in different disease settings is vital for the safe and effective incorporation of metabolism-targeted therapeutics in the clinic. Here, using transcriptomic data for 10,704 tumor and normal samples from The Cancer Genome Atlas, across 26 disease sites, we present a novel bioinformatics pipeline that distinguishes tumor from normal tissues, based on differential gene expression for 114 metabolic pathways. We confirm pathway dysregulation in separate patient populations, demonstrating the robustness of our approach. Bootstrapping simulations were then applied to assess the biological significance of these alterations. We provide distinct examples of the types of analysis that can be accomplished with this tool to understand cancer specific metabolic dysregulation, highlighting novel pathways of interest, and patterns of metabolic flux, in both common and rare disease sites. Further, we show that Master Metabolic Transcriptional Regulators explain why metabolic differences exist, can segregate patient populations, and predict responders to different metabolism-targeted therapeutics. © 2018, The Author(s).
+ER  - 
