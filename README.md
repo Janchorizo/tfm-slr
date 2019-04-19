@@ -13,7 +13,7 @@ experiment?
 
 ## Article acceptance : inclusion and exclusion criteria
 ### Inclusion criteria
-IC1: The paper addresses a RnaSeq OR WES process AND
+IC1: The paper addresses a (RnaSeq OR WES) process AND
 
 IC2: The paper proposes a software based solution (model, tool, framework, service, 
 infrastructure, system, technique, application) AND
@@ -21,12 +21,10 @@ infrastructure, system, technique, application) AND
 IC3: The proposed solution allows for the solution to be replicated AND
 
 IC4: The proposed solution allows to replicate the environment in which the process would 
-take place AND
-
-IC5: The paper was published in the year 2017 or later
+take place
 
 ### Exclusion criteria
-EC1: The paper does not address a RnaSeq OR WES process OR
+EC1: The paper does not address a (RnaSeq OR WES) process OR
 
 EC2: The paper does not propose a software based solution (model, tool, framework, service, 
 infrastructure, system, technique, application) OR
@@ -36,7 +34,9 @@ EC3: The proposed solution does not allow for the solution to be replicated OR
 EC4: The proposed solution does not allow to replicate the environment in which the process 
 would take place OR
 
-EC5: The paper was not published in the year 2017 or later
+EC5: The paper addresses one monolithic process
+
+EC6: The paper proposes a solution for just a specific step of the bioinformatic process
 
 ## Sources
 WoS and Scopus were used for retrieving the results
@@ -89,4 +89,17 @@ Duplicate entries for articles were detected and deleted with the desktop Mendel
 After duplicate removal __869__ different articles were obtained, and which will be processed by applying the inclusion/acceptance and 
 exclusion/rejection criteria previously defined. 
 
+## Applying the inclusion and exclusion criteria
+The file format used for the referencies is .ris (). This file will be used in conjuction with the
+ris.py Python program writen for this task.
+
+The program allows to go through each of the articles in the initial .ris file and write the values
+for each of the criteria specified, additionally:
+* A csv is generated with a header indicating the filed's related information and a row entry for
+	each of the references analyzed; each of them with the values applied.
+* When the users stops the analysis of the bibliography by pressing 'q', a .temp file is created
+	in the same directory for the process to be continued at any time.
+* When the user selects the filter option, the csv created will be used to create a .ris file with
+	the same base name as the initial with a '.filtered' extension appended, containing all the
+	references from the original that have met all the inclusion criteria defined in the csv.
 
