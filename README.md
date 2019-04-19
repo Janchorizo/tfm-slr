@@ -86,5 +86,7 @@ AND  ( LIMIT-TO ( DOCTYPE ,  "ar" ) )
 ## Duplicate removal
 Duplicate entries for articles were detected and deleted with the desktop Mendeley application (v1.19.4).
 
-After duplicate removal __892__ different articles were obtained, and which will be processed by applying the inclusion/acceptance and 
+After duplicate removal __869__ different articles were obtained, and which will be processed by applying the inclusion/acceptance and 
 exclusion/rejection criteria previously defined. 
+
+
