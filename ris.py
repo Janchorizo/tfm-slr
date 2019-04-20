@@ -5,9 +5,9 @@ import os
 import re
 
 class Article:
-    required: List[str] = ['T1', 'A1', 'Y1', 'DO', 'N2']
+    required: List[str] = ['T1', 'A1', 'Y1', 'N2']
     csv_fields: List[str] = ['T1', 'A1', 'Y1']
-    csv_header: str = 'T1\tA1\tY1\tDO'
+    csv_header: str = 'T1\tA1\tY1'
 
     def __init__(self, info: Dict[str,str]):
         if not all(map(lambda key: key in info, info)):
@@ -52,10 +52,11 @@ class RISfile:
         articles = iter(self.articles)
         with open(self.file_path+'.filtered', 'w') as f:
             for entry in ris_csv.included_referencies():
+                print(entry)
                 for article in articles:
                     occurencies: List[bool] = \
-                        [entry[i] == article.info[csv_fields[i]] for i in range(len(csv_fields))]
-                    if sum(occurencies) == len(csv_fields):
+                        [entry[i].strip() == article.info[csv_fields[i]] for i in range(len(csv_fields))]
+                    if all(occurencies):
                         f.write(article.info['raw'])
                         break
 
@@ -64,17 +65,14 @@ class RIScsv:
         self.file_path = file_path
 
     def included_referencies(self):
-        is_inclusion_criteria_field: Callable[[str], bool] = \
-            lambda x: re.search('I\d+$',x) is not None
-
         with open(self.file_path, 'r') as f:
             header: str = next(f)
-            inclusion_field_count: int = \
-                reduce(lambda ac,dc: ac + is_inclusion_criteria_field(dc), header.split('\t'), 0)
+            valid:str = 'y\t' * len(re.findall('I\d+\t',header)) + \
+                'n\t' * len(re.findall('E\d+\t',header))
+
             for line in f:
-                entry = line.split('\t')
-                if all(map(lambda x: x=='y', entry[:inclusion_field_count])):
-                    yield entry[-4:]
+                if line.startswith(valid):
+                    yield line.split('\t')[-len(Article.csv_fields):]
 
     def write_entry(self, article:Article, extra_fields: List[str]):
         extra_fields.extend([article])
@@ -104,11 +102,11 @@ class Criteria:
 
     def __str__(self):
         string: str = ''
-        string += '\n'.join([f'I{i} - {self._inclusion_criteria[i]}' for i \
+        string += '\n'.join([f'I{i+1} - {self._inclusion_criteria[i]}' for i \
             in range(len(self._inclusion_criteria))])
         string += '\n'
-        string += '\n'.join([f'E{i} - {self._exclusion_criteria[i]}' for i \
-            in range(len(self._inclusion_criteria))])
+        string += '\n'.join([f'E{i+1} - {self._exclusion_criteria[i]}' for i \
+            in range(len(self._exclusion_criteria))])
 
         return string
 
@@ -124,8 +122,8 @@ class Criteria:
 
     @property
     def csv_header(self):
-        header: List[str] = [f'I{i}' for i in range(len(self._inclusion_criteria))]
-        header.extend([f'E{i}' for i in range(len(self._exclusion_criteria))])
+        header: List[str] = [f'I{i+1}' for i in range(len(self._inclusion_criteria))]
+        header.extend([f'E{i+1}' for i in range(len(self._exclusion_criteria))])
 
         return '\t'.join(header)
 
@@ -142,7 +140,7 @@ if __name__ == '__main__':
     criteria.add_exclusion_criteria('The paper does not propose a software based solution (model, tool, framework, service, infrastructure, system, technique, application) OR')
     criteria.add_exclusion_criteria('The proposed solution does not allow for the solution to be replicated OR')
     criteria.add_exclusion_criteria('The proposed solution does not allow to replicate the environment in which the process would take place OR')
-    criteria.add_exclusion_criteria('The paper addresses one monolithic process')
+    criteria.add_exclusion_criteria('The paper addresses one monolithic process OR')
     criteria.add_exclusion_criteria('The paper proposes a solution for just a specific step of the bioinformatic process')
 
     ris_csv = RIScsv('./evaluated.csv')
