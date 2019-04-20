@@ -16,7 +16,7 @@ experiment?
 
 ## Article acceptance : inclusion and exclusion criteria
 ### Inclusion criteria
-IC1: The paper addresses a (RnaSeq OR WES) process AND
+IC1: The paper addresses a (RnaSeq OR WES) (process OR worflow or pipeline) AND
 
 IC2: The paper proposes a software based solution (model, tool, framework, service, 
 infrastructure, system, technique, application) AND
@@ -27,7 +27,7 @@ IC4: The proposed solution allows to replicate the environment in which the proc
 take place
 
 ### Exclusion criteria
-EC1: The paper does not address a (RnaSeq OR WES) process OR
+EC1: The paper does not address a (RnaSeq OR WES) (process OR worflow or pipeline) OR
 
 EC2: The paper does not propose a software based solution (model, tool, framework, service, 
 infrastructure, system, technique, application) OR

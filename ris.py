@@ -50,15 +50,17 @@ class RISfile:
 
     def filter(self, ris_csv: RIScsv, csv_fields: List[str]):
         articles = iter(self.articles)
+        included = 0
         with open(self.file_path+'.filtered', 'w') as f:
             for entry in ris_csv.included_referencies():
-                print(entry)
+                included += 1
                 for article in articles:
                     occurencies: List[bool] = \
                         [entry[i].strip() == article.info[csv_fields[i]] for i in range(len(csv_fields))]
                     if all(occurencies):
                         f.write(article.info['raw'])
                         break
+        print(f'\nIncluded : {included}')
 
 class RIScsv:
     def __init__(self, file_path: str):
@@ -131,12 +133,12 @@ if __name__ == '__main__':
     ris_file_path = './without_duplicates.ris'
     criteria = Criteria()
 
-    criteria.add_inclusion_criteria('The paper addresses a (RnaSeq OR WES) process AND')
+    criteria.add_inclusion_criteria('The paper addresses a (RnaSeq OR WES) (process OR worflow or pipeline) AND')
     criteria.add_inclusion_criteria('The paper proposes a software based solution (model, tool, framework, service, infrastructure, system, technique, application) AND')
     criteria.add_inclusion_criteria('The proposed solution allows for the solution to be replicated AND')
     criteria.add_inclusion_criteria('The proposed solution allows to replicate the environment in which the process would take place AND')
 
-    criteria.add_exclusion_criteria('The paper does not address a RnaSeq OR WES process OR')
+    criteria.add_exclusion_criteria('The paper does not address a (RnaSeq OR WES) ( process OR worflow or pipeline ) OR')
     criteria.add_exclusion_criteria('The paper does not propose a software based solution (model, tool, framework, service, infrastructure, system, technique, application) OR')
     criteria.add_exclusion_criteria('The proposed solution does not allow for the solution to be replicated OR')
     criteria.add_exclusion_criteria('The proposed solution does not allow to replicate the environment in which the process would take place OR')
