@@ -133,15 +133,15 @@ if __name__ == '__main__':
     ris_file_path = './without_duplicates.ris'
     criteria = Criteria()
 
-    criteria.add_inclusion_criteria('The paper addresses a (RnaSeq OR WES) (process OR worflow or pipeline) AND')
+    criteria.add_inclusion_criteria('The paper addresses a (RnaSeq OR WES) (worflow or pipeline) AND')
     criteria.add_inclusion_criteria('The paper proposes a software based solution (model, tool, framework, service, infrastructure, system, technique, application) AND')
-    criteria.add_inclusion_criteria('The proposed solution allows for the solution to be replicated AND')
-    criteria.add_inclusion_criteria('The proposed solution allows to replicate the environment in which the process would take place AND')
+    criteria.add_inclusion_criteria('The proposed solution can be reused and replicated AND')
+    criteria.add_inclusion_criteria('The required environment is well defined and replicable ')
 
-    criteria.add_exclusion_criteria('The paper does not address a (RnaSeq OR WES) ( process OR worflow or pipeline ) OR')
+    criteria.add_exclusion_criteria('The paper does not address a (RnaSeq OR WES) (worflow or pipeline ) OR')
     criteria.add_exclusion_criteria('The paper does not propose a software based solution (model, tool, framework, service, infrastructure, system, technique, application) OR')
-    criteria.add_exclusion_criteria('The proposed solution does not allow for the solution to be replicated OR')
-    criteria.add_exclusion_criteria('The proposed solution does not allow to replicate the environment in which the process would take place OR')
+    criteria.add_exclusion_criteria('The proposed solution does not allow for the (workflow/pipeline) to be reused or replicated OR')
+    criteria.add_exclusion_criteria('The required environment is not well defined and replicable OR')
     criteria.add_exclusion_criteria('The paper addresses one monolithic process OR')
     criteria.add_exclusion_criteria('The paper proposes a solution for just a specific step of the bioinformatic process')
 

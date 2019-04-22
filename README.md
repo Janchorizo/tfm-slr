@@ -21,10 +21,9 @@ IC1: The paper addresses a (RnaSeq OR WES) (process OR worflow or pipeline) AND
 IC2: The paper proposes a software based solution (model, tool, framework, service, 
 infrastructure, system, technique, application) AND
 
-IC3: The proposed solution allows for the solution to be replicated AND
+IC3: The proposed solution can be reused and replicated AND
 
-IC4: The proposed solution allows to replicate the environment in which the process would 
-take place
+IC4: The required environment is well defined and replicable 
 
 ### Exclusion criteria
 EC1: The paper does not address a (RnaSeq OR WES) (process OR worflow or pipeline) OR
@@ -32,10 +31,9 @@ EC1: The paper does not address a (RnaSeq OR WES) (process OR worflow or pipelin
 EC2: The paper does not propose a software based solution (model, tool, framework, service, 
 infrastructure, system, technique, application) OR
 
-EC3: The proposed solution does not allow for the solution to be replicated OR
+EC3: The proposed solution does not allow for the (workflow/pipeline) to be reused or replicated OR
 
-EC4: The proposed solution does not allow to replicate the environment in which the process 
-would take place OR
+EC4: The requirement environment is not well defined and replicable OR
 
 EC5: The paper addresses one monolithic process
 
