@@ -104,3 +104,6 @@ for each of the criteria specified, additionally:
 	the same base name as the initial with a '.filtered' extension appended, containing all the
 	references from the original that have met all the inclusion criteria defined in the csv.
 
+The result of applying the inclusion and exclusion crteria is a set of 93 articles related to the questions firstly
+proposed; framed in the design and implementation of bioinformatic workflows/pipelines in the context
+of wes and rnaseq analysis.
