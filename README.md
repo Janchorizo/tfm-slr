@@ -11,22 +11,28 @@ experiment?
 
 ## Article acceptance : inclusion and exclusion criteria
 ### Inclusion criteria
-IC1: The paper addresses a RnaSeq OR WES process AND
+IC1: The paper addresses a (RnaSeq OR WES) (process OR worflow or pipeline) AND
+
 IC2: The paper proposes a software based solution (model, tool, framework, service, 
 infrastructure, system, technique, application) AND
-IC3: The proposed solution allows for the solution to be replicated AND
-IC4: The proposed solution allows to replicate the environment in which the process would 
-take place AND
-IC5: The paper was published in the year 2017 or later
+
+IC3: The proposed solution can be reused and replicated AND
+
+IC4: The required environment is well defined and replicable 
 
 ### Exclusion criteria
-EC1: The paper does not address a RnaSeq OR WES process OR
+EC1: The paper does not address a (RnaSeq OR WES) (process OR worflow or pipeline) OR
+
 EC2: The paper does not propose a software based solution (model, tool, framework, service, 
 infrastructure, system, technique, application) OR
-EC3: The proposed solution does not allow for the solution to be replicated OR
-EC4: The proposed solution does not allow to replicate the environment in which the process 
-would take place OR
-EC5: The paper was not published in the year 2017 or later
+
+EC3: The proposed solution does not allow for the (workflow/pipeline) to be reused or replicated OR
+
+EC4: The requirement environment is not well defined and replicable OR
+
+EC5: The paper addresses one monolithic process
+
+EC6: The paper proposes a solution for just a specific step of the bioinformatic process
 
 ## Sources
 WoS and Scopus were used for retrieving the results
@@ -94,3 +100,5 @@ Duplicate entries for articles were detected and deleted with the desktop Mendel
 
 After duplicate removal __1398__ different articles were obtained, and which will be processed by applying the inclusion/acceptance and 
 exclusion/rejection criteria previously defined.
+
+
