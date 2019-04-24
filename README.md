@@ -88,3 +88,9 @@ AND  ( LIMIT-TO ( DOCTYPE ,  "ar" ) )
 
 #### Query results merged
 The sum of references for all four searches is of **2195** total references.
+
+## Duplicate removal
+Duplicate entries for articles were detected and deleted with the desktop Mendeley application (v1.19.4).
+
+After duplicate removal __1398__ different articles were obtained, and which will be processed by applying the inclusion/acceptance and 
+exclusion/rejection criteria previously defined.
