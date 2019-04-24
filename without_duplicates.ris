@@ -1,0 +1,20 @@
+TY  - JOUR
+T1  - Riborex: Fast and flexible identification of differential translation from Ribo-seq data
+A1  - Li, W
+A1  - Wang, W
+A1  - Uren, P J
+A1  - Penalva, L O F
+A1  - Smith, A D
+Y1  - 2017///
+JF  - Bioinformatics
+VL  - 33
+IS  - 11
+SP  - 1735
+EP  - 1737
+CY  - Molecular and Computational Biology, Division of Biological Sciences, University of Southern California, Los Angeles, CA, United States
+DO  - 10.1093/bioinformatics/btx047
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85021341331&doi=10.1093%2Fbioinformatics%2Fbtx047&partnerID=40&md5=fbaf4b6539088aa39df1337aac06ae55
+N1  - Cited By :5
+Export Date: 19 April 2019
+N2  - Motivation: Global analysis of translation regulation has recently been enabled by the development of Ribosome Profiling, or Ribo-seq, technology. This approach provides maps of ribosome activity for each expressed gene in a given biological sample. Measurements of translation efficiency are generated when Ribo-seq data is analyzed in combination with matched RNA-seq gene expression profiles. Existing computational methods for identifying genes with differential translation across samples are based on sound principles, but require users to choose between accuracy and speed. Results: We present Riborex, a computational tool for mapping genome-wide differences in translation efficiency. Riborex shares a similar mathematical structure with existing methods, but has a simplified implementation. Riborex directly leverages established RNA-seq analysis frameworks for all parameter estimation, providing users with a choice among robust engines for these computations. The result is a method that is dramatically faster than available methods without sacrificing accuracy. © The Author 2017.
+ER  - 
