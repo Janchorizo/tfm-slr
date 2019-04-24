@@ -174,8 +174,11 @@ if __name__ == '__main__':
             if options == 'q':
                 with open(ris_file_path+'.temp', 'w') as f:
                     f.write(article.info['raw'])
+                    left = 0
                     for x in articles:
                         f.write(x.info['raw'])
+                        left += 1
+                    print(f'{left} articles left for evaluation\n')
                 break
             elif options == 'p':
                 continue
