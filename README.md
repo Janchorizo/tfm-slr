@@ -85,3 +85,6 @@ OR ("experiment" AND "reproducibility") ) )
 AND ( LIMIT-TO ( SUBJAREA,"BIOC" ) 
 OR LIMIT-TO ( SUBJAREA,"COMP" ) ) 
 AND  ( LIMIT-TO ( DOCTYPE ,  "ar" ) ) 
+
+#### Query results merged
+The sum of references for all four searches is of **2195** total references.
