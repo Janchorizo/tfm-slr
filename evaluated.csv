@@ -1303,3 +1303,103 @@ n	n	n	n	y	y	y	y	n	n	RT-qPCR normalization genes in the red alga Chondrus crispus
 n	n	n	n	y	y	y	y	n	n	Co-transcriptional production of RNA-DNA hybrids for simultaneous release of multiple split functionalities	Afonin, K A;Desai, R;Viard, M;Kireeva, M L;Bindewald, E;Case, C L;Maciag, A E;Kasprzak, W K;Kim, T;Sappe, A;Stepler, M;Kewalramani, V N;Kashlev, M;Blumenthal, R;Shapiro, B A	2014///
 n	n	n	n	y	y	y	y	n	n	Protection genes in nucleus accumbens shell affect vulnerability to nicotine self-administration across isogenic strains of adolescent rat	Chen, H;Luo, R;Gong, S;Matta, S G;Sharp, B M	2014///
 n	n	n	n	y	y	y	y	n	n	Reference genes for real-time PCR quantification of messenger RNAs and microRNAs in mouse model of obesity	Matoušková, P;Bártíková, H;Boušová, I;Hanušová, V;Szotáková, B;Skálová, L	2014///
+y	y	y	y	n	n	n	n	y	n	Sebnif: An integrated bioinformatics pipeline for the identification of novel large intergenic noncoding RNAs (lincRNAs) - Application in human skeletal muscle cells	Sun, K;Zhao, Y;Wang, H;Sun, H	2014///
+n	n	y	y	y	y	n	n	y	y	Using normalization to resolve RNA-seq biases caused by amplification from minimal input	Ager-Wick, E;Henkel, C V;Haug, T M;Weltzien, F.-A.	2014///
+n	n	y	y	y	y	n	n	n	n	Quality control method for RNA-seq using single nucleotide polymorphism allele frequency	Endo, T A	2014///
+n	n	y	y	y	y	n	n	n	n	Comparison of CAGE and RNA-seq transcriptome profiling using clonally amplified and single-molecule next-generation sequencing	Kawaji, H;Lizio, M;Itoh, M;Kanamori-Katayama, M;Kaiho, A;Nishiyori-Sueki, H;Shin, J W;Kojima-Ishiyama, M;Kawano, M;Murata, M;Ninomiya-Fukuda, N;Ishikawa-Kato, S;Nagao-Sato, S;Noma, S;Hayashizaki, Y;Forrest, A R R;Carninci, P	2014///
+n	n	n	n	y	y	y	y	n	n	RNA-seq identifies key reproductive gene expression alterations in response to cadmium exposure	Hu, H;Lu, X;Cen, X;Chen, X;Li, F;Zhong, S	2014///
+n	n	y	y	y	y	n	n	y	n	Integrative transcriptome sequencing identifies trans-splicing events with important roles in human embryonic stem cell pluripotency	Wu, C.-S.;Yu, C.-Y.;Chuang, C.-Y.;Hsiao, M;Kao, C.-F.;Kuo, H.-C.;Chuang, T.-J.	2014///
+n	n	n	n	y	y	y	y	n	n	SRSF10 regulates alternative splicing and is required for adipocyte differentiation	Li, H;Cheng, Y;Wu, W;Liu, Y;Wei, N;Feng, X;Xie, Z;Fenga, Y	2014///
+n	n	y	y	y	y	n	n	y	y	GraphProt: Modeling binding preferences of RNA-binding proteins	Maticzka, D;Lange, S J;Costa, F;Backofen, R	2014///
+n	n	y	y	y	y	n	n	y	y	Sequence alignment tools: One parallel pattern to rule them all?	Misale, C;Ferrero, G;Torquati, M;Aldinucci, M	2014///
+n	y	y	y	y	n	n	n	y	n	Ribosomal Database Project: Data and tools for high throughput rRNA analysis	Cole, J R;Wang, Q;Fish, J A;Chai, B;McGarrell, D M;Sun, Y;Brown, C T;Porras-Alfaro, A;Kuske, C R;Tiedje, J M	2014///
+n	y	y	y	y	n	n	n	y	y	Jannovar: A Java Library for Exome Annotation	Jäger, M;Wang, K;Bauer, S;Smedley, D;Krawitz, P;Robinson, P N	2014///
+n	n	n	n	y	y	y	y	n	n	The Maize glossy13 gene, cloned via BSR-Seq and Seq-Walking encodes a putative ABC transporter required for the normal accumulation of epicuticular waxes	Li, L;Li, D;Liu, S;Ma, X;Dietrich, C R;Hu, H.-C.;Zhang, G;Liu, Z;Zheng, J;Wang, G;Schnable, P S	2013///
+n	n	n	y	y	y	y	n	y	y	MMDiff: Quantitative testing for shape changes in ChIP-Seq data sets	Schweikert, G;Cseke, B;Clouaire, T;Bird, A;Sanguinetti, G	2013///
+n	n	y	y	y	y	n	n	y	n	Systematically Differentiating Functions for Alternatively Spliced Isoforms through Integrating RNA-seq Data	Eksi, R;Li, H.-D.;Menon, R;Wen, Y;Omenn, G S;Kretzler, M;Guan, Y	2013///
+n	n	n	n	y	y	y	y	n	n	The transcriptional landscape of Campylobacter jejuni under iron replete and iron limited growth conditions	Butcher, J;Stintzi, A	2013///
+n	y	y	n	y	n	n	y	y	y	isomiRID: A framework to identify microRNA isoforms	De Oliveira, L F V;Christoff, A P;Margis, R	2013///
+y	y	y	y	n	n	n	n	n	n	Using the iplant collaborative discovery environment	Oliver, S L;Lenards, A J;Barthelson, R A;Merchant, N;McKay, S J	2013///
+n	n	n	n	y	y	y	y	y	n	Genome-wide transcriptome analysis identifies novel gene signatures implicated in human chronic liver disease	Smalling, R L;Delker, D A;Zhang, Y;Nieto, N;Mcguiness, M S;Liu, S;Friedman, S L;Hagedorn, C H;Wang, L	2013///
+n	n	n	n	y	y	y	y	n	n	A known expressed sequence tag, BM742401, is a potent lincRNA inhibiting cancer metastasis	Park, S.-M.;Park, S.-J.;Kim, H.-J.;Kwon, O.-H.;Kang, T.-W.;Sohn, H.-A.;Kim, S.-K.;Noh, S M;Song, K.-S.;Jang, S.-J.;Kim, Y S;Kim, S.-Y.	2013///
+n	n	n	n	y	y	y	y	n	n	RNA-Seq Reveals Dynamic Changes of Gene Expression in Key Stages of Intestine Regeneration in the Sea Cucumber Apostichopus japonicas	Sun, L;Yang, H;Chen, M;Ma, D;Lin, L	2013///
+y	n	n	y	n	y	y	n	y	n	A comprehensive metatranscriptome analysis pipeline and its validation using human small intestine microbiota datasets	Leimena, M M;Ramiro-Garcia, J;Davids, M;van den Bogert, B;Smidt, H;Smid, E J;Boekhorst, J;Zoetendal, E G;Schaap, P J;Kleerebezem, M	2013///
+n	n	n	n	y	y	y	y	n	n	Effects of Diet on Resource Utilization by a Model Human Gut Microbiota Containing Bacteroides cellulosilyticus WH2, a Symbiont with an Extensive Glycobiome	McNulty, N P;Wu, M;Erickson, A R;Pan, C;Erickson, B K;Martens, E C;Pudlo, N A;Muegge, B D;Henrissat, B;Hettich, R L;Gordon, J I	2013///
+n	y	y	n	y	n	n	y	y	y	CLIP-based prediction of mammalian microRNA binding sites	Liu, C;Mallick, B;Long, D;Rennie, W A;Wolenc, A;Carmack, C S;Ding, Y	2013///
+n	y	y	n	y	n	n	y	y	y	Prioritization of Retinal Disease Genes: An Integrative Approach	Wagner, A H;Taylor, K R;Deluca, A P;Casavant, T L;Mullins, R F;Stone, E M;Scheetz, T E;Braun, T A	2013///
+y	y	y	n	n	n	n	y	y	y	MMAPPR: Mutation Mapping Analysis Pipeline for Pooled RNA-seq	Hill, J T;Demarest, B L;Bisgrove, B W;Gorsi, B;Su, Y.-C.;Yost, H J	2013///
+n	n	n	n	y	y	y	y	n	n	Identification and Characterization of the miRNA Transcriptome of Ovis aries	Zhang, S;Zhao, F;Wei, C;Sheng, X;Ren, H;Xu, L;Lu, J;Liu, J;Zhang, L;Du, L	2013///
+n	n	n	n	y	y	y	y	n	n	Dampening Enthusiasm for Circulating MicroRNA in Breast Cancer	Leidner, R S;Li, L;Thompson, C L	2013///
+y	n	y	y	n	y	n	n	y	n	A non-parametric cutout index for robust evaluation of identified proteins	Serang, O;Paulo, J;Steen, H;Steen, J A	2013///
+n	n	n	n	y	y	y	y	n	n	A transgenic zebrafish liver tumor model with inducible Myc expression reveals conserved Myc signatures with mammalian liver tumors	Li, Z;Zheng, W;Wang, Z;Zeng, Z;Zhan, H;Li, C;Zhou, L;Yan, C;Spitsbergen, J M;Gong, Z	2013///
+y	n	y	y	n	y	n	n	y	n	Volatility in mRNA secondary structure as a design principle for antisense	Johnson, E;Srivastava, R	2013///
+n	n	n	y	y	y	y	n	y	n	Improved Discovery of Molecular Interactions in Genome-Scale Data with Adaptive Model-Based Normalization	Salzman, J;Klass, D M;Brown, P O	2013///
+n	n	n	n	y	y	y	y	n	n	Systematic evaluation of medium-throughput mRNA abundance platforms	Prokopec, S D;Watson, J D;Waggott, D M;Smith, A B;Wu, A H;Okey, A B;Pohjanvirta, R;Boutros, P C	2013///
+y	y	y	y	n	n	n	n	y	n	The four ingredients of single-sequence RNA secondary structure prediction. A unifying perspective	Rivas, E	2013///
+n	n	n	n	y	y	y	y	n	n	Accurate identification and analysis of human mRNA isoforms using deep long read sequencing	Tilgner, H;Raha, D;Habegger, L;Mohiuddin, M;Gerstein, M;Snyder, M	2013///
+n	n	n	n	y	y	y	y	n	n	Hepatocellular Carcinomas in B6C3F1 Mice Treated with Ginkgo biloba Extract for Two Years Differ from Spontaneous Liver Tumors in Cancer Gene Mutations and Genomic Pathways	Hoenerhoff, M J;Pandiri, A R;Snyder, S A;Hong, H.-H.L.;Ton, T.-V.;Peddada, S;Shockley, K;Witt, K;Chan, P;Rider, C;Kooistra, L;Nyska, A;Sills, R C	2013///
+n	y	y	y	y	n	n	n	y	y	Abstract folding space analysis based on helices	Huang, J;Backofen, R;Voß, B	2012///
+n	n	n	n	y	y	y	y	n	n	Genome-wide analysis uncovers regulation of long intergenic noncoding RNAs in arabidopsisC W	Liu, J;Jung, C;Xu, J;Wang, H;Deng, S;Bernad, L;Arenas-Huertero, C;Chua, N.-H.	2012///
+n	n	n	n	y	y	y	y	n	n	Analysis of the regulated transcriptome of neisseria meningitidis in human blood using a tiling array	Del Tordello, E;Bottini, S;Muzzi, A;Serruto, D	2012///
+n	n	n	n	y	y	y	y	n	n	Application of the Gini correlation coefficient to infer regulatory relationships in transcriptome analysis	Ma, C;Wang, X	2012///
+n	n	n	y	y	y	y	n	y	n	Evidence for an early endometrial response to pregnancy in cattle: Both dependent upon and independent of interferon tau	Forde, N;Duffy, G B;McGettigan, P A;Browne, J A;Mehta, J P;Kelly, A K;Mansouri-Attia, N;Sandra, O;Loftus, B J;Crowe, M A;Fair, T;Roche, J F;Lonergan, P;Evans, A C O	2012///
+n	y	y	y	y	n	n	n	y	y	A novel partial sequence alignment tool for finding large deletions	Aruk, T;Ustek, D;Kursun, O	2012///
+n	n	n	n	y	y	y	y	n	n	Redifferentiation of expanded human pancreatic β-cell-derived cells by inhibition of the NOTCH pathway	Bar, Y;Russ, H A;Sintov, E;Anker-Kitai, L;Knoller, S;Efrat, S	2012///
+n	n	n	n	y	y	y	y	n	n	High levels of RNA-editing site conservation amongst 15 laboratory mouse strains	Danecek, P;Nellåker, C;McIntyre, R E;Buendia-Buendia, J E;Bumpstead, S;Ponting, C P;Flint, J;Durbin, R;Keane, T M;Adams, D J	2012///
+n	n	n	n	y	y	y	y	n	n	Transcriptome analysis of silver carp (Hypophthalmichthys molitrix) by paired-end RNA sequencing	Fu, B;He, S	2012///
+n	n	n	y	y	y	y	n	y	n	Role of microRNAs 99b, 181a, and 181b in the differentiation of human embryonic stem cells to vascular endothelial cells	Kane, N M;Howard, L;Descamps, B;Meloni, M;McClure, J;Lu, R;McCahill, A;Breen, C;Mackenzie, R M;Delles, C;Mountford, J C;Milligan, G;Emanueli, C;Baker, A H	2012///
+n	n	n	y	y	y	y	n	y	n	Functionally stable and phylogenetically diverse microbial enrichments from microbial fuel cells during wastewater treatment	Ishii, S;Suzuki, S;Norden-Krichmar, T M;Nealson, K H;Sekiguchi, Y;Gorby, Y A;Bretschger, O	2012///
+y	y	y	y	n	n	n	n	n	n	Genomictools: A computational platform for developing high-throughput analytics in genomics	Tsirigos, A;Haiminen, N;Bilal, E;Utro, F	2012///
+n	n	y	y	y	y	n	n	n	n	Synthetic spike-in standards for RNA-seq experiments	Jiang, L;Schlesinger, F;Davis, C A;Zhang, Y;Li, R;Salit, M;Gingeras, T R;Oliver, B	2011///
+n	n	n	n	y	y	y	y	n	n	A survey for novel imprinted genes in the mouse placenta by mRNA-seq	Wang, X;Soloway, P D;Clark, A G	2011///
+n	n	n	n	y	y	y	y	n	n	Insights into global mechanisms and disease by gene expression profiling.	Sánchez-Cabo, F;Rainer, J;Dopazo, A;Trajanoski, Z;Hackl, H	2011///
+n	n	n	n	y	y	y	y	n	n	Identification and analysis of novel microRNAs from fragile sites of human cervical cancer: Computational and experimental approach	Reshmi, G;Chandra, S S V;Babu, V J M;Babu, P S S;Santhi, W S;Ramachandran, S;Lakshmi, S;Nair, A S;Pillai, M R	2011///
+y	y	y	y	n	n	n	n	y	y	Profiling the miRNome: Detecting global miRNA expression levels with DNA microarrays	White, P	2011///
+n	n	y	y	y	y	n	n	y	y	ConReg-R: Extrapolative recalibration of the empirical distribution of p-values to improve false discovery rate estimates	Li, J;Paramita, P;Choi, K P;Karuturi, R K M	2011///
+n	n	y	y	y	y	n	n	y	n	Deep sequencing of organ- and stage-specific micrornas in the evolutionarily basal insect Blattella germanica (L.) (Dictyoptera, Blattellidae)	Cristino, A S;Tanaka, E D;Rubio, M;Piulachs, M.-D.;Belles, X	2011///
+n	y	y	n	y	n	n	y	y	n	RNAcode: Robust discrimination of coding and noncoding regions in comparative sequence data	Washietl, S;Findeiß, S;Müller, S A;Kalkhof, S;Von Bergen, M;Hofacker, I L;Stadler, P F;Goldman, N	2011///
+n	n	n	n	y	y	y	y	n	n	Comparison of gene expression profiles in chromate transformed BEAS-2B cells	Sun, H;Clancy, H A;Kluz, T;Zavadil, J;Costa, M	2011///
+n	n	y	y	y	y	n	n	y	n	Improving the accuracy of predicting secondary structure for aligned RNA sequences	Hamada, M;Sato, K;Asai, K	2011///
+n	n	y	y	y	y	n	n	y	n	Accurate quantification of transcriptome from RNA-Seq data by effective length normalization	Lee, S;Li, S;Seo, C H;Lim, B;Yang, J O;Oh, J;Kim, M;Lee, S;Lee, B;Kang, C	2011///
+n	y	n	y	y	n	y	n	y	n	FragSeq: Transcriptome-wide RNA structure probing using high-throughput sequencing	Underwood, J G;Uzilov, A V;Katzman, S;Onodera, C S;Mainzer, J E;Mathews, D H;Lowe, T M;Salama, S R;Haussler, D	2010///
+n	y	y	y	y	n	n	n	y	y	ARDesigner: A web-based system for allosteric RNA design	Shu, W;Liu, M;Chen, H;Bo, X;Wang, S	2010///
+n	n	n	n	y	y	y	y	n	n	Digital transcriptome profiling from attomole-level RNA samples	Ozsolak, F;Goren, A;Gymrek, M;Guttman, M;Regev, A;Bernstein, B E;Milos, P M	2010///
+n	n	n	n	y	y	y	y	n	n	Use of hidden correlations in short oligonucleotide array data are insufficient for accurate quantification of nucleic acid targets in complex target mixtures	Rule, R A;Pozhitkov, A E;Noble, P A	2009///
+n	y	y	y	y	n	n	n	y	y	The Ribosomal Database Project: Improved alignments and new tools for rRNA analysis	Cole, J R;Wang, Q;Cardenas, E;Fish, J;Chai, B;Farris, R J;Kulam-Syed-Mohideen, A S;McGarrell, D M;Marsh, T;Garrity, G M;Tiedje, J M	2009///
+n	y	y	n	y	n	n	y	y	y	ShapeFinder: A software system for high-throughput quantitative analysis of nucleic acid reactivity information resolved by capillary electrophoresis	Vasa, S M;Guex, N;Wilkinson, K A;Weeks, K M;Giddings, M C	2008///
+n	n	y	y	y	y	n	n	y	y	MicroRNA discovery and profiling in human embryonic stem cells by deep sequencing of small RNA libraries	Bar, M;Wyman, S K;Fritz, B R;Qi, J;Garg, K S;Parkin, R K;Kroh, E M;Bendoraite, A;Mitchell, P S;Nelson, A M;Ruzzo, W L;Ware, C;Radich, J P;Gentleman, R;Ruohola-Baker, H;Tewari, M	2008///
+n	n	n	n	y	y	y	y	n	n	Real-time PCR method to detect rat agrin mRNA	Guo, Y;Jiang, X.-M.;Guo, H.-M.;Liu, Y.-M.;Wang, F;Shi, Y.-L.;Feng, X.-W.;Zhu, W.-F.;Xing, Y.-Q.;Zhao, Q.-S.;Ma, X.-L.;Yang, Y.-T.;Yang, L	2008///
+n	n	n	n	y	y	y	y	n	n	A Universal Framework for Regulatory Element Discovery across All Genomes and Data Types	Elemento, O;Slonim, N;Tavazoie, S	2007///
+n	y	y	y	y	n	n	n	y	y	A cross-species alignment tool (CAT)	Li, H;Guan, L;Liu, T;Guo, Y;Zheng, W.-M.;Wong, G.K.-S.;Wang, J	2007///
+n	y	y	y	y	n	n	n	y	y	AffyProbeMiner: A web resource for computing or retrieving accurately redefined Affymetrix probe sets	Liu, H;Zeeberg, B R;Qu, G;Koru, A G;Ferrucci, A;Kahn, A;Ryan, M C;Nuhanovic, A;Munson, P J;Reinhold, W C;Kane, D W;Weinstein, J N	2007///
+n	n	y	y	y	y	n	n	n	n	PALMA: mRNA to genome alignments using large margin algorithms	Schulze, U;Hepp, B;Ong, C S;Rätsch, G	2007///
+n	n	n	n	y	y	y	y	n	n	Simulfold: Simultaneously inferring RNA structures including pseudoknots, alignments, and trees using a Bayesian MCMC framework	Meyer, I M;Miklós, I	2007///
+n	n	n	n	y	y	y	y	n	n	Intercenter reliability and validity of the rhesus macaque GeneChip	Duan, F;Spindel, E R;Li, Y.-H.;Norgren Jr., R B	2007///
+n	n	n	n	y	y	y	y	n	n	Validity of messenger RNA expression analyses of human saliva	Kumar, S V;Hurteau, G J;Spivack, S D	2006///
+n	n	n	y	n	y	y	y	n	n	Systematic comparison of the T7-IVT and SMART-based RNA preamplification techniques for DNA microarray experiments	Wilhelm, J;Muyal, J P;Best, J;Kwapiszewska, G;Stein, M M;Seeger, W;Bohle, R M;Fink, L	2006///
+n	n	n	n	y	y	y	y	n	n	Identification of consensus RNA secondary structures using suffix arrays	Anwar, M;Nguyen, T;Turcotte, M	2006///
+n	n	y	y	y	y	n	n	y	y	CMfinder - A covariance model based RNA motif finding algorithm	Yao, Z;Weinberg, Z;Ruzzo, W L	2006///
+n	n	n	n	y	y	y	y	n	n	High-throughput RNAi screening in vitro: From cell lines to primary cells	Ovcharenko, D;Jarvis, R;Hunicke-Smith, S;Kelnar, K;Brown, D	2005///
+n	y	y	y	y	n	n	n	y	y	Accelerated probabilistic inference of RNA structure evolution	Holmes, I	2005///
+n	n	n	n	y	y	y	y	n	n	Evolutionary models for insertions and deletions in a probabilistic modeling framework	Rivas, E	2005///
+n	n	n	n	y	y	y	y	n	n	Accurate measurement of 15N-13C residual dipolar couplings in nucleic acids	Jaroniec, C P;Boisbouvier, J;Tworowska, I;Nikonowicz, E P;Bax, A	2005///
+n	n	n	n	y	y	y	y	y	n	Regulatory sequences of H19 and IGF2 genes in DNA-based therapy of colorectal rat liver metastases	Ohana, P;Schachter, P;Ayesh, B;Mizrahi, A;Birman, T;Scheneider, T;Matouk, I;Ayesh, S;Kuppen, P J K;de Groot, N;Czerniak, A;Hockberg, A	2005///
+n	n	y	y	y	y	n	n	y	y	Feature selection for splice site prediction: A new method using EDA-based feature ranking	Saeys, Y;Degroeve, S;Aeyels, D;Rouzé, P;Van de Peer, Y	2004///
+n	n	n	y	y	y	y	n	y	n	Development of a microarray assay that measures hybridization stoichiometry in moles	Rouse, R J D;Espinoza, C R;Niedner, R H;Hardiman, G	2004///
+n	n	n	n	y	y	y	y	n	n	Properties of the Reverse Transcription Reaction in mRNA Quantification	Ståhlberg, A;Håkansson, J;Xian, X;Semb, H;Kubista, M	2004///
+n	n	y	y	y	y	n	n	y	n	A simple and efficient Triton X-100 boiling and chloroform extraction method of RNA isolation from Gram-positive and Gram-negative bacteria	Sung, K;Khan, S A;Nawaz, M S;Khan, A A	2003///
+n	n	n	n	y	y	y	y	n	n	mRNA 5′ region sequence incompleteness: A potential source of systematic errors in translation initiation codon assignment in human mRNAs	Casadei, R;Strippoli, P;D'Addabbo, P;Canaider, S;Lenzi, L;Vitale, L;Giannone, S;Frabetti, F;Facchin, F;Carinci, P;Zannotti, M	2003///
+n	n	n	n	y	y	y	y	n	n	Slow nucleic acid unzipping kinetics from sequence-defined barriers	Cocco, S;Marko, J F;Monasson, R	2003///
+n	n	y	y	y	y	n	n	y	n	Concepts to automate the theoretical design of effective antisense oligonucleotides	Far, R.K.-K.;Nedbal, W;Sczakiel, G	2001///
+n	n	y	n	y	y	n	y	y	n	Comparative analysis of secondary structure of insect mitochondrial small subunit ribosomal RNA using maximum weighted matching	Page, R D M	2000///
+n	n	n	n	y	y	y	y	n	n	Differences in gene expression between sleep and waking as revealed by mRNA differential display	Cirelli, C;Tononi, G	1998///
+n	n	n	n	y	y	y	y	n	n	Quantitation of mRNA Species by RT-PCR on total mRNA population	Hamoui, S;Benedetto, J.-P.;Garret, M;Bonnet, J	1994///
+n	y	y	y	y	n	n	n	y	y	An automated method for efficient, accurate and reproducible construction of RNA-seq libraries Genomics	Tsompana, Maria;Valiyaparambil, Sujith;Bard, Jonathan;Marzullo, Brandon;Nowak, Norma;Buck, Michael Joseph	2015///
+y	y	y	y	n	n	n	n	y	y	Efficient algorithms for probing the RNA mutation landscape	Waldispuhl, Jerome;Devadas, Srinivas;Berger, Bonnie;Clote, Peter;Waldispühl, J;Devadas, Srinivas;Berger, Bonnie;Clote, Peter	2008///
+n	y	y	y	y	n	n	n	n	y	A web-based interactive framework to assist in the prioritization of disease candidate genes in whole-exome sequencing studies	Alemán, A;Garcia-Garcia, Francisco;Salavert, Francisco;Medina, Ignacio;Dopazo, Joaquin;Aleman, Alejandro;Garcia-Garcia, Francisco;Salavert, Francisco;Medina, Ignacio;Dopazo, Joaquin	2014///
+n	y	y	y	y	n	n	n	y	y	AllelicImbalance: An R/ bioconductor package for detecting, managing, and visualizing allele expression imbalance data from RNA sequencing	Gådin, J R;van't Hooft, Ferdinand M;Eriksson, Per;Folkersen, Lasse;Gadin, Jesper R;van't Hooft, Ferdinand M;Eriksson, Per;Folkersen, Lasse	2015///
+n	y	y	y	y	n	n	n	n	y	Sincell: an R/Bioconductor package for statistical assessment of cell-state hierarchies from single-cell RNA-seq	Juliá, M;Telenti, Amalio;Rausell, Antonio;Julia, Miguel;Telenti, Amalio;Rausell, Antonio	2015///
+n	n	y	y	y	y	n	n	y	y	Statistical models for RNA-seq data derived from a two-condition 48-replicate experiment	Gierlinski, Marek;Cole, Christian;Schofield, Pieta;Schurch, Nicholas J;Sherstnev, Alexander;Singh, Vijender;Wrobel, Nicola;Gharbi, Karim;Simpson, Gordon;Owen-Hughes, Tom;Blaxter, Mark;Barton, Geoffrey J;Gierliński, M;Cole, Christian;Schofield, Pieta;Schurch, Nicholas J;Sherstnev, Alexander;Singh, Vijender;Wrobel, Nicola;Gharbi, Karim;Simpson, Gordon;Owen-Hughes, Tom;Blaxter, Mark;Barton, Geoffrey J	2015///
+n	y	y	y	y	n	n	n	y	y	GSVA: gene set variation analysis for microarray and RNA-Seq data	Hänzelmann, S;Castelo, Robert;Guinney, Justin;Haenzelmann, Sonja;Castelo, Robert;Guinney, Justin	2013///
+y	n	n	n	n	y	y	y	y	n	De novo assembly of middle-sized genome using MinION and Illumina sequencers 06 Biological Sciences 0604 Genetics	Minei, R;Hoshina, R;Ogura, A	2018///
+n	n	n	n	y	y	y	y	n	n	Indel sensitive and comprehensive variant/mutation detection from RNA sequencing data for precision medicine 06 Biological Sciences 0604 Genetics	Prodduturi, N;Bhagwate, A;Kocher, J.-P.A.;Sun, Z	2018///
