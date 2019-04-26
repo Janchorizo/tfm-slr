@@ -16,7 +16,7 @@ IC1: The paper addresses a (RnaSeq OR WES) (process OR worflow or pipeline) AND
 IC2: The paper proposes a software based solution (model, tool, framework, service, 
 infrastructure, system, technique, application) AND
 
-IC3: The proposed solution can be reused and replicated AND
+IC3: The proposed solution allows for the (workflow/pipeline) to be reused or replicated AND
 
 IC4: The required environment is well defined and replicable 
 
