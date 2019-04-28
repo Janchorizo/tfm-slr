@@ -61,7 +61,7 @@ Only articles are revised, excluding those earlier to 2017 and from different fi
 _Reference query_
 ((rna-seq OR rnaseq OR “rna seq*”) OR ”whole exome sequenc*”) AND (“pipeline” OR “schem*” OR ("framework" AND "software") OR "automate" OR ("experiment" AND "reproducibility"))
 
-#### WoS 1 (635)
+#### WoS 1 (635) (wos_1.ris)[wos_1.ris]
 TOPIC: (( ( ( rna-seq OR rnaseq OR "rna seq*" ) OR "whole exome sequenc*" ) AND ( "pipeline" OR “schem*” OR ("framework" AND "software") OR "automate" OR ("experiment" AND "reproducibility") ) ))
 Refined by: RESEARCH DOMAINS: ( SCIENCE TECHNOLOGY ) AND RESEARCH DOMAINS: ( SCIENCE TECHNOLOGY ) AND DOCUMENT TYPES: ( ARTICLE ) AND Databases: ( WOS OR MEDLINE )
 Timespan: 2017-2019. Databases:  WOS, CCC, DIIDW, KJD, MEDLINE, RSCI, SCIELO.
