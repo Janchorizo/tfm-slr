@@ -80,7 +80,7 @@ OR LIMIT-TO ( PUBYEAR,2018)
 OR LIMIT-TO ( PUBYEAR,2017) )
 AND  ( LIMIT-TO ( DOCTYPE ,  "ar" ) ) 
 
-#### WoS 1 (472) [wos_2.ris](https://github.com/Janchorizo/tfm-slr/blob/revision/wos_2.ris)
+#### WoS 2 (472) [wos_2.ris](https://github.com/Janchorizo/tfm-slr/blob/revision/wos_2.ris)
 TOPIC: (( ( ( rna-seq OR rnaseq OR "rna seq*" ) OR "whole exome sequenc*" ) AND ( (("pipeline" OR “schem*”) AND "implement*") OR ("framework" AND "software") OR "automate" OR ("experiment" AND "reproducibility") ) ))
 Refined by: RESEARCH DOMAINS: ( SCIENCE TECHNOLOGY ) AND RESEARCH DOMAINS: ( SCIENCE TECHNOLOGY ) AND DOCUMENT TYPES: ( ARTICLE ) AND Databases: ( WOS OR MEDLINE )
 Search language=Auto  
@@ -95,16 +95,16 @@ AND ( LIMIT-TO ( SUBJAREA,"BIOC" )
 OR LIMIT-TO ( SUBJAREA,"COMP" ) ) 
 AND  ( LIMIT-TO ( DOCTYPE ,  "ar" ) ) 
 
-#### Query results merged
+#### Query results merged [merged.ris](https://github.com/Janchorizo/tfm-slr/blob/revision/merged.ris)
 The sum of references for all four searches is of **2195** total references.
 
-## Duplicate removal
+## Duplicate removal [without_duplicates.ris](https://github.com/Janchorizo/tfm-slr/blob/revision/without_duplicates.ris)
 Duplicate entries for articles were detected and deleted with the desktop Mendeley application (v1.19.4).
 
 After duplicate removal __1398__ different articles were obtained, and which will be processed by applying the inclusion/acceptance and 
 exclusion/rejection criteria previously defined.
 
-## Applying the inclusion and exclusion criteria
+## Applying the inclusion and exclusion criteria [without_duplicates.ris.filtered](https://github.com/Janchorizo/tfm-slr/blob/revision/without_duplicates.ris.filtered)
 The file format used for the referencies is .ris (). This file will be used in conjuction with the
 ris.py Python program writen for this task.
 
@@ -122,14 +122,14 @@ The result of applying the inclusion and exclusion crteria is a set of __133__ a
 proposed; framed in the design and implementation of bioinformatic workflows/pipelines in the context
 of wes and rnaseq analysis.
 
-## Excluding articles during data extraction
+## Excluding articles during data extraction [to_eval.ris.deleted](https://github.com/Janchorizo/tfm-slr/blob/revision/to_eval.ris.deleted)
 While reapplying the inclusion and exclusion criteria, if an article shows to be not relevant to
 the research questions, it is excluded from the list of articles to be used in the final revision.
 
 There were a total of __69__ articles that were rejected while applying the quality criteria, 
 because of unfulfillment of the inclusion criteria or irrelevance to the proposed research questions.
 
-## Applying quality checks to the articles
+## Applying quality checks to the articles [to_eval.ris.filtered](https://github.com/Janchorizo/tfm-slr/blob/revision/to_eval.ris.fltered)
 To ensure that the revised articles contribute in a suficient manner, and with a minimum of alignment
 to the research questions proposed, a set of quality checks are applyed to each individual article.
 Each of the questions contributes with a different value, adding up to a maximum of 7.
