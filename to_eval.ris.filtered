@@ -1,0 +1,859 @@
+TY  - JOUR
+T1  - Watchdog - a workflow management system for the distributed analysis of large-scale experimental data
+A1  - Kluge, M
+A1  - Friedel, C C
+Y1  - 2018///
+KW  - Automated execution
+KW  - Distributed analysis
+KW  - High-throughput experiments
+KW  - Large-scale datasets
+KW  - RNA-seq
+KW  - Reproducibility
+KW  - Reusability
+KW  - Workflow management system
+JF  - BMC Bioinformatics
+VL  - 19
+IS  - 1
+CY  - Ludwig-Maximilians-Universität München, Institute for Informatics, Amalienstraße 17, München, 80333, Germany
+DO  - 10.1186/s12859-018-2107-4
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85043570775&doi=10.1186%2Fs12859-018-2107-4&partnerID=40&md5=d1cceb6c182dc8311198790f13260332
+N1  - Cited By :1
+Export Date: 19 April 2019
+N2  - Background: The development of high-throughput experimental technologies, such as next-generation sequencing, have led to new challenges for handling, analyzing and integrating the resulting large and diverse datasets. Bioinformatical analysis of these data commonly requires a number of mutually dependent steps applied to numerous samples for multiple conditions and replicates. To support these analyses, a number of workflow management systems (WMSs) have been developed to allow automated execution of corresponding analysis workflows. Major advantages of WMSs are the easy reproducibility of results as well as the reusability of workflows or their components. Results: In this article, we present Watchdog, a WMS for the automated analysis of large-scale experimental data. Main features include straightforward processing of replicate data, support for distributed computer systems, customizable error detection and manual intervention into workflow execution. Watchdog is implemented in Java and thus platform-independent and allows easy sharing of workflows and corresponding program modules. It provides a graphical user interface (GUI) for workflow construction using pre-defined modules as well as a helper script for creating new module definitions. Execution of workflows is possible using either the GUI or a command-line interface and a web-interface is provided for monitoring the execution status and intervening in case of errors. To illustrate its potentials on a real-life example, a comprehensive workflow and modules for the analysis of RNA-seq experiments were implemented and are provided with the software in addition to simple test examples. Conclusions:Watchdog is a powerful and flexible WMS for the analysis of large-scale high-throughput experiments. We believe it will greatly benefit both users with and without programming skills who want to develop and apply bioinformatical workflows with reasonable overhead. The software, example workflows and a comprehensive documentation are freely available at www.bio.ifi.lmu.de/watchdog. © 2018 The Author(s).
+ER  - 
+TY  - JOUR
+T1  - VIPER: Visualization Pipeline for RNA-seq, a Snakemake workflow for efficient and complete RNA-seq analysis
+A1  - Cornwell, M I
+A1  - Vangala, M
+A1  - Taing, L
+A1  - Herbert, Z
+A1  - Köster, J
+A1  - Li, B
+A1  - Sun, H
+A1  - Li, T
+A1  - Zhang, J
+A1  - Qiu, X
+A1  - Pun, M
+A1  - Jeselsohn, R
+A1  - Brown, M
+A1  - Liu, X S
+A1  - Long, H W
+Y1  - 2018///
+KW  - Analysis
+KW  - Gene fusion
+KW  - Immunological infiltrate
+KW  - Pipeline
+KW  - RNA-seq
+KW  - Snakemake
+JF  - BMC Bioinformatics
+VL  - 19
+IS  - 1
+CY  - Dana-Farber Cancer Institute, Department of Medical Oncology, Boston, MA  02215, United States
+DO  - 10.1186/s12859-018-2139-9
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85045378045&doi=10.1186%2Fs12859-018-2139-9&partnerID=40&md5=7bdfc40f55632508125c02aca610f603
+N1  - Cited By :3
+Export Date: 19 April 2019
+N2  - Background: RNA sequencing has become a ubiquitous technology used throughout life sciences as an effective method of measuring RNA abundance quantitatively in tissues and cells. The increase in use of RNA-seq technology has led to the continuous development of new tools for every step of analysis from alignment to downstream pathway analysis. However, effectively using these analysis tools in a scalable and reproducible way can be challenging, especially for non-experts. Results: Using the workflow management system Snakemake we have developed a user friendly, fast, efficient, and comprehensive pipeline for RNA-seq analysis. VIPER (Visualization Pipeline for RNA-seq analysis) is an analysis workflow that combines some of the most popular tools to take RNA-seq analysis from raw sequencing data, through alignment and quality control, into downstream differential expression and pathway analysis. VIPER has been created in a modular fashion to allow for the rapid incorporation of new tools to expand the capabilities. This capacity has already been exploited to include very recently developed tools that explore immune infiltrate and T-cell CDR (Complementarity-Determining Regions) reconstruction abilities. The pipeline has been conveniently packaged such that minimal computational skills are required to download and install the dozens of software packages that VIPER uses. Conclusions: VIPER is a comprehensive solution that performs most standard RNA-seq analyses quickly and effectively with a built-in capacity for customization and expansion. © 2018 The Author(s).
+ER  - 
+TY  - JOUR
+T1  - viGEN: An Open Source Pipeline for the Detection and Quantification of Viral RNA in Human Tumors
+A1  - Bhuvaneshwar, Krithika
+A1  - Song, Lei
+A1  - Madhavan, Subha
+A1  - Gusev, Yuriy
+Y1  - 2018///
+JF  - Frontiers in Microbiology
+VL  - 9
+DO  - 10.3389/fmicb.2018.01172
+N1  - Gusev, Yuriy/0000-0001-7371-4715
+0
+N2  - An estimated 17% of cancers worldwide are associated with infectious causes. The extent and biological significance of viral presence/infection in actual tumor samples is generally unknown but could be measured using human transcriptome (RNA-seq) data from tumor samples. We present an open source bioinformatics pipeline viGEN, which allows for not only the detection and quantification of viral RNA, but also variants in the viral transcripts. The pipeline includes 4 major modules: The first module aligns and filter out human RNA sequences; the second module maps and count (remaining un-aligned) reads against reference genomes of all known and sequenced human viruses; the third module quantifies read counts at the individual viral-gene level thus allowing for downstream differential expression analysis of viral genes between case and controls groups. The fourth module calls variants in these viruses. To the best of our knowledge, there are no publicly available pipelines or packages that would provide this type of complete analysis in one open source package. In this paper, we applied the viGEN pipeline to two case studies. We first demonstrate the working of our pipeline on a large public dataset, the TOGA cervical cancer cohort. In the second case study, we performed an in-depth analysis on a small focused study of TOGA liver cancer patients. In the latter cohort, we performed viral-gene quantification, viral-variant extraction and survival analysis. This allowed us to find differentially expressed viral-transcripts and viral-variants between the groups of patients, and connect them to clinical outcome. From our analyses, we show that we were able to successfully detect the human papilloma virus among the TOGA cervical cancer patients. We compared the viGEN pipeline with two metagenomics tools and demonstrate similar sensitivity/specificity. We were also able to quantify viral-transcripts and extract viral-variants using the liver cancer dataset. The results presented corresponded with published literature in terms of rate of detection, and impact of several known variants of HBV genome. This pipeline is generalizable, and can be used to provide novel biological insights into microbial infections in complex diseases and tumorigeneses. Our viral pipeline could be used in conjunction with additional type of immuno-oncology analysis based on RNA-seq data of host RNA for cancer immunology applications. The source code, with example data and tutorial is available at: https://github.com/ICBI/viGEN/.
+ER  - 
+TY  - JOUR
+T1  - TRAPLINE: a standardized and automated pipeline for RNA sequencing data analysis, evaluation and annotation
+A1  - Wolfien, Markus
+A1  - Rimmbach, Christian
+A1  - Schmitz, Ulf
+A1  - Jung, Julia Jeannine
+A1  - Krebs, Stefan
+A1  - Steinhoff, Gustav
+A1  - David, Robert
+A1  - Wolkenhauer, Olaf
+Y1  - 2016///
+JF  - Bmc Bioinformatics
+VL  - 17
+DO  - 10.1186/s12859-015-0873-9
+N1  - Schmitz, Ulf/0000-0001-5806-4662; Wolfien, Markus/0000-0002-1887-4772
+12
+N2  - Background: Technical advances in Next Generation Sequencing (NGS) provide a means to acquire deeper insights into cellular functions. The lack of standardized and automated methodologies poses a challenge for the analysis and interpretation of RNA sequencing data. We critically compare and evaluate state-of-the-art bioinformatics approaches and present a workflow that integrates the best performing data analysis, data evaluation and annotation methods in a Transparent, Reproducible and Automated PipeLINE (TRAPLINE) for RNA sequencing data processing (suitable for Illumina, SOLiD and Solexa). Results: Comparative transcriptomics analyses with TRAPLINE result in a set of differentially expressed genes, their corresponding protein-protein interactions, splice variants, promoter activity, predicted miRNA-target interactions and files for single nucleotide polymorphism (SNP) calling. The obtained results are combined into a single file for downstream analysis such as network construction. We demonstrate the value of the proposed pipeline by characterizing the transcriptome of our recently described stem cell derived antibiotic selected cardiac bodies ('aCaBs'). Conclusion: TRAPLINE supports NGS-based research by providing a workflow that requires no bioinformatics skills, decreases the processing time of the analysis and works in the cloud. The pipeline is implemented in the biomedical research platform Galaxy and is freely accessible via www.sbi.uni-rostock.de/RNAseqTRAPLINE or the specific Galaxy manual page (https://usegalaxy.org/u/mwolfien/p/trapline-manual).
+ER  - 
+TY  - JOUR
+T1  - The RNA workbench: best practices for RNA and high-throughput sequencing bioinformatics in Galaxy
+A1  - Gruening, Bjoern A
+A1  - Fallmann, Joerg
+A1  - Yusuf, Dilmurat
+A1  - Will, Sebastian
+A1  - Erxleben, Anika
+A1  - Eggenhofer, Florian
+A1  - Houwaart, Torsten
+A1  - Batut, Berenice
+A1  - Videm, Pavankumar
+A1  - Bagnacani, Andrea
+A1  - Wolfien, Markus
+A1  - Lott, Steffen C
+A1  - Hoogstrate, Youri
+A1  - Hess, Wolfgang R
+A1  - Wolkenhauer, Olaf
+A1  - Hoffmann, Steve
+A1  - Akalin, Altuna
+A1  - Ohler, Uwe
+A1  - Stadler, Peter F
+A1  - Backofen, Rolf
+Y1  - 2017///
+JF  - Nucleic Acids Research
+VL  - 45
+IS  - W1
+SP  - W560
+EP  - W566
+DO  - 10.1093/nar/gkx409
+N1  - Hoffmann, Steve/E-1438-2013; AKALIN, ALTUNA/A-4424-2012
+Fallmann, Jorg/0000-0002-4573-9939; Videm, Pavankumar/0000-0002-5192-126X; Hess, Wolfgang/0000-0002-5340-3423; Batut, Berenice/0000-0001-9852-1987; AKALIN, ALTUNA/0000-0002-0468-0117; Gruning, Bjorn/0000-0002-3079-6586; Erxleben, Anika/0000-0002-7427-6478; Eggenhofer, Florian/0000-0001-9564-7525; Wolfien, Markus/0000-0002-1887-4772
+7
+N2  - RNA-based regulation has become a major research topic inmolecular biology. The analysis of epigenetic and expression data is therefore incomplete if RNA-based regulation is not taken into account. Thus, it is increasingly important but not yet standard to combine RNA-centric data and analysis tools with other types of experimental data such as RNA-seq or ChIP-seq. Here, we present the RNA workbench, a comprehensive set of analysis tools and consolidated workflows that enable the researcher to combine these two worlds. Based on the Galaxy framework the workbench guarantees simple access, easy extension, flexible adaption to personal and security needs, and sophisticated analyses that are independent of command-line knowledge. Currently, it includes more than 50 bioinformatics tools that are dedicated to different research areas of RNA biology including RNA structure analysis, RNA alignment, RNA annotation, RNA-protein interaction, ribosome profiling, RNA-seq analysis and RNA target prediction. The workbench is developed and maintained by experts in RNA bioinformatics and the Galaxy framework. Together with the growing community evolving around this workbench, we are committed to keep the workbench up-to-date for future standards and needs, providing researchers with a reliable and robust framework for RNA data analysis. Availability: The RNA workbench is available at https://github.com/bgruening/galaxy-rna-workbench.
+ER  - 
+TY  - JOUR
+T1  - Streamlined computational pipeline for genetic background characterization of genetically engineered mice based on next generation sequencing data
+A1  - Farkas, C
+A1  - Fuentes-Villalobos, F
+A1  - Rebolledo-Jaramillo, B
+A1  - Benavides, F
+A1  - Castro, A F
+A1  - Pincheira, R
+Y1  - 2019///
+KW  - Ang
+KW  - Cdkn1a
+KW  - Congenic mouse
+KW  - Genetic background
+KW  - Genetic interactions
+KW  - Genomic variation
+KW  - Knockout mouse
+KW  - Modifier genes
+KW  - RNA-Seq variant calling
+KW  - Sall2
+KW  - Sequencing
+KW  - qPCR validation
+JF  - BMC Genomics
+VL  - 20
+IS  - 1
+CY  - Laboratorio de Transducción de Señales y Cáncer, Departamento de Bioquímica y Biología Molecular, Facultad Cs. Biológicas, Universidad de Concepción, Concepción, Chile
+DO  - 10.1186/s12864-019-5504-9
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85061496998&doi=10.1186%2Fs12864-019-5504-9&partnerID=40&md5=907cc34769e5877d950ff57f64f3e51c
+N1  - Export Date: 19 April 2019
+N2  - Background: Genetically engineered mice (GEM) are essential tools for understanding gene function and disease modeling. Historically, gene targeting was first done in embryonic stem cells (ESCs) derived from the 129 family of inbred strains, leading to a mixed background or congenic mice when crossed with C57BL/6 mice. Depending on the number of backcrosses and breeding strategies, genomic segments from 129-derived ESCs can be introgressed into the C57BL/6 genome, establishing a unique genetic makeup that needs characterization in order to obtain valid conclusions from experiments using GEM lines. Currently, SNP genotyping is used to detect the extent of 129-derived ESC genome introgression into C57BL/6 recipients; however, it fails to detect novel/rare variants. Results: Here, we present a computational pipeline implemented in the Galaxy platform and in BASH/R script to determine genetic introgression of GEM using next generation sequencing data (NGS), such as whole genome sequencing (WGS), whole exome sequencing (WES) and RNA-Seq. The pipeline includes strategies to uncover variants linked to a targeted locus, genome-wide variant visualization, and the identification of potential modifier genes. Although these methods apply to congenic mice, they can also be used to describe variants fixed by genetic drift. As a proof of principle, we analyzed publicly available RNA-Seq data from five congenic knockout (KO) lines and our own RNA-Seq data from the Sall2 KO line. Additionally, we performed target validation using several genetics approaches. Conclusions: We revealed the impact of the 129-derived ESC genome introgression on gene expression, predicted potential modifier genes, and identified potential phenotypic interference in KO lines. Our results demonstrate that our new approach is an effective method to determine genetic introgression of GEM. © 2019 The Author(s).
+ER  - 
+TY  - JOUR
+T1  - SRNAPipe: A Galaxy-based pipeline for bioinformatic in-depth exploration of small RNAseq data
+A1  - Pogorelcnik, R
+A1  - Vaury, C
+A1  - Pouchin, P
+A1  - Jensen, S
+A1  - Brasset, E
+Y1  - 2018///
+KW  - Bioinformatics analyses
+KW  - Galaxy
+KW  - Pipeline
+KW  - Small RNA sequencing
+KW  - sRNA-Seq
+JF  - Mobile DNA
+VL  - 9
+IS  - 1
+CY  - GReD, Université Clermont Auvergne, CNRS, INSERM, BP 10448, Clermont-Ferrand, 63001, France
+DO  - 10.1186/s13100-018-0130-7
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85051253700&doi=10.1186%2Fs13100-018-0130-7&partnerID=40&md5=b3c29895f70b0944e91241288d0be4e2
+N1  - Export Date: 19 April 2019
+N2  - Background: The field of small RNA is one of the most investigated research areas since they were shown to regulate transposable elements and gene expression and play essential roles in fundamental biological processes. Small RNA deep sequencing (sRNA-seq) is now routinely used for large-scale analyses of small RNA. Such high-throughput sequencing typically produces several millions reads. Results: Here we present a computational pipeline (sRNAPipe: small RNA pipeline) based on the Galaxy framework that takes as input a fastq file of small RNA-seq reads and performs successive steps of mapping to categories of genomic sequences: transposable elements, gene transcripts, microRNAs, small nuclear RNAs, ribosomal RNAs and transfer RNAs. It also provides individual mapping and counting for chromosomes, transposable elements and gene transcripts, normalization, small RNA length analysis and plotting of the data along genomic coordinates to build publication-quality graphs and figures. sRNAPipe evaluates 10-nucleotide 5′-overlaps of reads on opposite strands to test ping-pong amplification for putative PIWI-interacting RNAs, providing counts of overlaps and corresponding z-scores. Conclusions: sRNAPipe is easy to use and does not require command-line or coding knowledge. This pipeline gives quick visual and quantitative results, which are usable for publications. sRNAPipe is freely available as a Galaxy tool and via GitHub. © 2018 The Author(s).
+ER  - 
+TY  - JOUR
+T1  - SRNAnalyzer-A flexible and customizable small RNA sequencing data analysis pipeline
+A1  - Wu, X
+A1  - Kim, T.-K.
+A1  - Baxter, D
+A1  - Scherler, K
+A1  - Gordon, A
+A1  - Fong, O
+A1  - Etheridge, A
+A1  - Galas, D J
+A1  - Wang, K
+Y1  - 2017///
+JF  - Nucleic Acids Research
+VL  - 45
+IS  - 21
+SP  - 12140
+EP  - 12151
+CY  - Institute for Systems Biology, Seattle, WA  98109, United States
+DO  - 10.1093/nar/gkx999
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85039076949&doi=10.1093%2Fnar%2Fgkx999&partnerID=40&md5=19fcef86f61f2c4f6cb827bde0e1544c
+N1  - Cited By :10
+Export Date: 19 April 2019
+N2  - Although many tools have been developed to analyze small RNA sequencing (sRNA-Seq) data, it remains challenging to accurately analyze the small RNA population, mainly due to multiple sequence ID assignment caused by short read length. Additional issues in small RNA analysis include low consistency of microRNA (miRNA) measurement results across different platforms, miRNA mapping associated with miRNA sequence variation (isomiR) and RNA editing, and the origin of those unmapped reads after screening against all endogenous reference sequence databases. To address these issues, we built a comprehensive and customizable sRNA-Seq data analysis pipeline-sRNAnalyzer, which enables: (i) comprehensive miRNA profiling strategies to better handle isomiRs and summarization based on each nucleotide position to detect potential SNPs in miRNAs, (ii) different sequence mapping result assignment approaches to simulate results from microarray/qRT-PCR platforms and a local probabilistic model to assign mapping results to the mostlikely IDs, (iii) comprehensive ribosomal RNA filtering for accurate mapping of exogenous RNAs and summarization based on taxonomy annotation. We evaluated our pipeline on both artificial samples (including synthetic miRNA and Escherichia coli cultures) and biological samples (human tissue and plasma). sRNAnalyzer is implemented in Perl and available at: http://srnanalyzer.systemsbiology.net/. © The Author(s) 2017.
+ER  - 
+TY  - CHAP
+T1  - SMART-RDA: A Galaxy Workflow for RNA-Seq Data Analysis
+A1  - Aditama, Redi
+A1  - Tanjung, Zulfikar Achmad
+A1  - Sudania, Widyartini Made
+A1  - Liwang, Tony
+ED  - Nuringtyas, T R
+ED  - Setyobudi, R H
+ED  - Burlakovs, J
+ED  - Mel, M
+ED  - Adinurani, P G
+ED  - VincevicaGaile, Z
+Y1  - 2017///
+JF  - 4th International Conference on Biological Science
+T3  - KnE Life Sciences
+SP  - 186
+EP  - 193
+SN  - *****************
+DO  - 10.18502/kls.v3i4.703
+N1  - 2015
+4th International Conference on Biological Science (ICBS)
+Sep 18-19, 2015
+Univ Gadjah Mada, Fac Biol, Yogyakarta, INDONESIA
+2413-0877
+N2  - RNA-seq using the Next Generation Sequencing (NGS) approach is a common technology to analyze large-scale RNA transcript data for gene expression studies. However, an appropriate bioinformatics tool is needed to analyze a large amount of transcriptomes data from RNA-seq experiment. The aim of this study was to construct a system that can be easily applied to analyze RNA-seq data. RNA-seq analysis tool as SMART-RDA was constructed in this study. It is a computational workflow based on Galaxy framework to be used for analyzing RNA-seq raw data into gene expression information. This workflow was adapted from a well-known Tuxedo Protocol for RNA-seq analysis with some modifications. Expression value from each transcriptome was quantitatively stated as Fragments Per Kilobase of exon per Million fragments (FPKM). RNA-seq data of sterile and fertile oil palm (Pisifera) pollens derived from Sequence Read Archive (SRA) NCBI were used to test this workflow in local facility Galaxy server. The results showed that differentially gene expression in pollens might be responsible for sterile and fertile characteristics in palm oil Pisifera.
+ER  - 
+TY  - JOUR
+T1  - SLIM: a flexible web application for the reproducible processing of environmental DNA metabarcoding data
+A1  - Dufresne, Yoann
+A1  - Lejzerowicz, Franck
+A1  - Perret-Gentil, Laure Apotheloz
+A1  - Pawlowski, Jan
+A1  - Cordier, Tristan
+Y1  - 2019///
+JF  - Bmc Bioinformatics
+VL  - 20
+DO  - 10.1186/s12859-019-2663-2
+N1  - 0
+N2  - BackgroundHigh-throughput amplicon sequencing of environmental DNA (eDNA metabarcoding) has become a routine tool for biodiversity survey and ecological studies. By including sample-specific tags in the primers prior PCR amplification, it is possible to multiplex hundreds of samples in a single sequencing run. The analysis of millions of sequences spread into hundreds to thousands of samples prompts for efficient, automated yet flexible analysis pipelines. Various algorithms and software have been developed to perform one or multiple processing steps, such as paired-end reads assembly, chimera filtering, Operational Taxonomic Unit (OTU) clustering and taxonomic assignment. Some of these software are now well established and widely used by scientists as part of their workflow. Wrappers that are capable to process metabarcoding data from raw sequencing data to annotated OTU-to-sample matrix were also developed to facilitate the analysis for non-specialist users. Yet, most of them require basic bioinformatic or command-line knowledge, which can limit the accessibility to such integrative toolkits. Furthermore, for flexibility reasons, these tools have adopted a step-by-step approach, which can prevent an easy automation of the workflow, and hence hamper the analysis reproducibility.ResultsWe introduce SLIM, an open-source web application that simplifies the creation and execution of metabarcoding data processing pipelines through an intuitive Graphic User Interface (GUI). The GUI interact with well-established software and their associated parameters, so that the processing steps are performed seamlessly from the raw sequencing data to an annotated OTU-to-sample matrix. Thanks to a module-centered organization, SLIM can be used for a wide range of metabarcoding cases, and can also be extended by developers for custom needs or for the integration of new software. The pipeline configuration (i.e. the modules chaining and all their parameters) is stored in a file that can be used for reproducing the same analysis.ConclusionThis web application has been designed to be user-friendly for non-specialists yet flexible with advanced settings and extensibility for advanced users and bioinformaticians. The source code along with full documentation is available on the GitHub repository (https://github.com/yoann-dufresne/SLIM) and a demonstration server is accessible through the application website (https://trtcrd.github.io/SLIM/).
+ER  - 
+TY  - JOUR
+T1  - SePIA: RNA and small RNA sequence processing, integration, and analysis
+A1  - Icay, Katherine
+A1  - Chen, Ping
+A1  - Cervera, Alejandra
+A1  - Rantanen, Ville
+A1  - Lehtonen, Rainer
+A1  - Hautaniemi, Sampsa
+Y1  - 2016///
+JF  - Biodata Mining
+VL  - 9
+DO  - 10.1186/s13040-016-0099-z
+N1  - Hautaniemi, Sampsa/A-3122-2009
+Hautaniemi, Sampsa/0000-0002-7749-2694; Rantanen, Ville/0000-0002-0105-7071; Chen, Ping/0000-0002-8068-1891; Lehtonen, Rainer Juhani/0000-0002-8343-0318
+3
+N2  - Background: Large-scale sequencing experiments are complex and require a wide spectrum of computational tools to extract and interpret relevant biological information. This is especially true in projects where individual processing and integrated analysis of both small RNA and complementary RNA data is needed. Such studies would benefit from a computational workflow that is easy to implement and standardizes the processing and analysis of both sequenced data types. Results: We developed SePIA (Sequence Processing, Integration, and Analysis), a comprehensive small RNA and RNA workflow. It provides ready execution for over 20 commonly known RNA-seq tools on top of an established workflow engine and provides dynamic pipeline architecture to manage, individually analyze, and integrate both small RNA and RNA data. Implementation with Docker makes SePIA portable and easy to run. We demonstrate the workflow's extensive utility with two case studies involving three breast cancer datasets. SePIA is straightforward to configure and organizes results into a perusable HTML report. Furthermore, the underlying pipeline engine supports computational resource management for optimal performance. Conclusion: SePIA is an open-source workflow introducing standardized processing and analysis of RNA and small RNA data. SePIA's modular design enables robust customization to a given experiment while maintaining overall workflow structure.
+ER  - 
+TY  - JOUR
+T1  - RSEQREP: RNA-Seq Reports, an open-source cloud-enabled framework for reproducible RNA-Seq data processing, analysis, and result reporting [version 2; referees: 2 approved]
+A1  - Goll, J B
+A1  - Jensen, T L
+A1  - Frasketi, M
+A1  - Conway, K
+A1  - Villarroel, L
+A1  - Hill, H
+A1  - Krampis, K
+Y1  - 2018///
+KW  - Cloud computing
+KW  - Differential gene expression
+KW  - Pathway enrichment
+KW  - RNA-Seq
+KW  - RSEQREP
+KW  - Reproducible research
+KW  - Transcriptomics
+KW  - Trivalent influenza vaccine
+JF  - F1000Research
+VL  - 6
+CY  - Vaccine and Infectious Disease Department, The Emmes Corporation, Rockville, MD, United States
+DO  - 10.12688/f1000research.13049.2
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85050036371&doi=10.12688%2Ff1000research.13049.2&partnerID=40&md5=2c8bf799dde9c1564de64e0cd80095bb
+N1  - Export Date: 19 April 2019
+N2  - RNA-Seq is increasingly being used to measure human RNA expression on a genome-wide scale. Expression profiles can be interrogated to identify and functionally characterize treatment-responsive genes. Ultimately, such controlled studies promise to reveal insights into molecular mechanisms of treatment effects, identify biomarkers, and realize personalized medicine. RNA-Seq Reports (RSEQREP) is a new open-source cloud-enabled framework that allows users to execute start-to-end gene-level RNA-Seq analysis on a preconfigured RSEQREP Amazon Virtual Machine Image (AMI) hosted by AWS or on their own Ubuntu Linux machine via a Docker container or installation script. The framework works with unstranded, stranded, and paired-end sequence FASTQ files stored locally, on Amazon Simple Storage Service (S3), or at the Sequence Read Archive (SRA). RSEQREP automatically executes a series of customizable steps including reference alignment, CRAM compression, reference alignment QC, data normalization, multivariate data visualization, identification of differentially expressed genes, heatmaps, co-expressed gene clusters, enriched pathways, and a series of custom visualizations. The framework outputs a file collection that includes a dynamically generated PDF report using R, knitr, and LaTeX, as well as publication-ready table and figure files. A user-friendly configuration file handles sample metadata entry, processing, analysis, and reporting options. The configuration supports time series RNA-Seq experimental designs with at least one pre- and one post-treatment sample for each subject, as well as multiple treatment groups and specimen types. All RSEQREP analyses components are built using open-source R code and R/Bioconductor packages allowing for further customization. As a use case, we provide RSEQREP results for a trivalent influenza vaccine (TIV) RNA-Seq study that collected 1 pre-TIV and 10 post-TIV vaccination samples (days 1-10) for 5 subjects and two specimen types (peripheral blood mononuclear cells and B-cells). © 2018 Jensen TL et al.
+ER  - 
+TY  - CHAP
+T1  - QuickRNASeq: Guide for Pipeline Implementation and for Interactive Results Visualization
+A1  - He, Wen
+A1  - Zhao, Shanrong
+A1  - Zhang, Chi
+A1  - Vincent, Michael S
+A1  - Zhang, Baohong
+ED  - Wang, Y
+ED  - Sun, M A
+Y1  - 2018///
+JF  - Transcriptome Data Analysis: Methods and Protocols
+VL  - 1751
+T3  - Methods in Molecular Biology
+SP  - 57
+EP  - 70
+SN  - 978-1-4939-7710-9; 978-1-4939-7709-3
+DO  - 10.1007/978-1-4939-7710-9_4
+N1  - 1064-3745
+N2  - Sequencing of transcribed RNA molecules (RNA-Seq) has been used wildly for studying cell transcriptomes in bulk or at the single-cell level (Wang et al., Nat Rev Genet, 10:57-63, 2009; Ozsolak and Milos, Nat Rev Genet, 12:87-98, 2011; Sandberg, Nat Methods, 11:22-24, 2014) and is becoming the de facto technology for investigating gene expression level changes in various biological conditions, on the time course, and under drug treatments. Furthermore, RNA-Seq data helped identify fusion genes that are related to certain cancers (Maher et al., Nature, 458:97-101, 2009). Differential gene expression before and after drug treatments provides insights to mechanism of action, pharmacodynamics of the drugs, and safety concerns (Dixit et al., Genomics, 107:178-188, 2016). Because each RNA-Seq run generates tens to hundreds of millions of short reads with size ranging from 50 to 200 bp, a tool that deciphers these short reads to an integrated and digestible analysis report is in high demand. QuickRNASeq (Zhao et al., BMC Genomics, 17:39-53, 2016) is an application for large-scale RNA-Seq data analysis and real-time interactive visualization of complex data sets. This application automates the use of several of the best open-source tools to efficiently generate user friendly, easy to share, and ready to publish report. Figures in this protocol illustrate some of the interactive plots produced by QuickRNASeq. The visualization features of the application have been further improved since its first publication in early 2016. The original QuickRNASeq publication (Zhao et al., BMC Genomics, 17:39-53, 2016) provided details of background, software selection, and implementation. Here, we outline the steps required to implement QuickRNASeq in user's own environment, as well as demonstrate some basic yet powerful utilities of the advanced interactive visualization modules in the report.
+ER  - 
+TY  - JOUR
+T1  - PiGx: Reproducible genomics analysis pipelines with GNU Guix
+A1  - Wurmus, R
+A1  - Uyar, B
+A1  - Osberg, B
+A1  - Franke, V
+A1  - Gosdschan, A
+A1  - Wreczycka, K
+A1  - Ronen, J
+A1  - Akalin, A
+Y1  - 2018///
+KW  - Bisulfite-seq
+KW  - ChIP-seq
+KW  - RNA-seq
+KW  - differential binding
+KW  - differential expression
+KW  - differential methylation
+KW  - functional package management
+KW  - pipelines in genomics
+KW  - reproducible software
+KW  - single cell RNA-seq
+JF  - GigaScience
+VL  - 7
+IS  - 12
+CY  - Bioinformatics Platform, Berlin Institute for Medical Systems Biology, Max-Delbrück Center for Molecular Medicine, Robert-Rössle-Strasse 10, Berlin, 13125, Germany
+DO  - 10.1093/gigascience/giy123
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85059797385&doi=10.1093%2Fgigascience%2Fgiy123&partnerID=40&md5=96fcb14ec892287f7b3a579b237d53a7
+N1  - Cited By :1
+Export Date: 19 April 2019
+N2  - Abstract In bioinformatics, as well as other computationally intensive research fields, there is a need for workflows that can reliably produce consistent output, from known sources, independent of the software environment or configuration settings of the machine on which they are executed. Indeed, this is essential for controlled comparison between different observations and for the wider dissemination of workflows. However, providing this type of reproducibility and traceability is often complicated by the need to accommodate the myriad dependencies included in a larger body of software, each of which generally comes in various versions. Moreover, in many fields (bioinformatics being a prime example), these versions are subject to continual change due to rapidly evolving technologies, further complicating problems related to reproducibility. Here, we propose a principled approach for building analysis pipelines and managing their dependencies with GNU Guix. As a case study to demonstrate the utility of our approach, we present a set of highly reproducible pipelines called PiGx for the analysis of RNA sequencing, chromatin immunoprecipitation sequencing, bisulfite-treated DNA sequencing, and single-cell resolution RNA sequencing. All pipelines process raw experimental data and generate reports containing publication-ready plots and figures, with interactive report elements and standard observables. Users may install these highly reproducible packages and apply them to their own datasets without any special computational expertise beyond the use of the command line. We hope such a toolkit will provide immediate benefit to laboratory workers wishing to process their own datasets or bioinformaticians seeking to automate all, or parts of, their analyses. In the long term, we hope our approach to reproducibility will serve as a blueprint for reproducible workflows in other areas. Our pipelines, along with their corresponding documentation and sample reports, are available at http://bioinformatics.mdc-Berlin.de/pigx. © 2018 The Author(s).
+ER  - 
+TY  - JOUR
+T1  - Omics Pipe: a community-based framework for reproducible multi-omics data analysis
+A1  - Fisch, Kathleen M
+A1  - Meissner, Tobias
+A1  - Gioia, Louis
+A1  - Ducom, Jean-Christophe
+A1  - Carland, Tristan M
+A1  - Loguercio, Salvatore
+A1  - Su, Andrew I
+Y1  - 2015///
+JF  - Bioinformatics
+VL  - 31
+IS  - 11
+SP  - 1724
+EP  - 1728
+DO  - 10.1093/bioinformatics/btv061
+N1  - Meissner, Tobias/0000-0002-9680-7153; Fisch, Kathleen/0000-0002-0117-7444; Su, Andrew I./0000-0002-9859-4104
+23rd Annual International Conference on Intelligent Systems for Molecular Biology / 14th European Conference on Computational Biology
+Jul 10-14, 2015
+Dublin, IRELAND
+Int Soc Computat Biol, Student Council
+20
+N2  - Motivation: Omics Pipe (http://sulab.scripps.edu/omicspipe) is a computational framework that automates multi-omics data analysis pipelines on high performance compute clusters and in the cloud. It supports best practice published pipelines for RNA-seq, miRNA-seq, Exome-seq, Whole-Genome sequencing, ChIP-seq analyses and automatic processing of data from The Cancer Genome Atlas (TCGA). Omics Pipe provides researchers with a tool for reproducible, open source and extensible next generation sequencing analysis. The goal of Omics Pipe is to democratize next-generation sequencing analysis by dramatically increasing the accessibility and reproducibility of best practice computational pipelines, which will enable researchers to generate biologically meaningful and interpretable results. Results: Using Omics Pipe, we analyzed 100 TCGA breast invasive carcinoma paired tumor-normal datasets based on the latest UCSC hg19 RefSeq annotation. Omics Pipe automatically downloaded and processed the desired TCGA samples on a high throughput compute cluster to produce a results report for each sample. We aggregated the individual sample results and compared them to the analysis in the original publications. This comparison revealed high overlap between the analyses, as well as novel findings due to the use of updated annotations and methods.
+ER  - 
+TY  - JOUR
+T1  - NGSANE: a lightweight production informatics framework for high-throughput data analysis
+A1  - Buske, Fabian A
+A1  - French, Hugh J
+A1  - Smith, Martin A
+A1  - Clark, Susan J
+A1  - Bauer, Denis C
+Y1  - 2014///
+JF  - Bioinformatics
+VL  - 30
+IS  - 10
+SP  - 1471
+EP  - 1472
+DO  - 10.1093/bioinformatics/btu036
+N1  - Bauer, Denis/C-3903-2009; French, Hugh/L-7817-2014; Clark, Susan/B-2272-2008
+Bauer, Denis/0000-0001-8033-9810; French, Hugh/0000-0001-7464-6929; Clark, Susan/0000-0001-5925-5030; Smith, Martin/0000-0003-2259-1713
+15
+N2  - The initial steps in the analysis of next-generation sequencing data can be automated by way of software 'pipelines'. However, individual components depreciate rapidly because of the evolving technology and analysis methods, often rendering entire versions of production informatics pipelines obsolete. Constructing pipelines from Linux bash commands enables the use of hot swappable modular components as opposed to the more rigid program call wrapping by higher level languages, as implemented in comparable published pipelining systems. Here we present Next Generation Sequencing ANalysis for Enterprises (NGSANE), a Linux-based, high-performance-computing-enabled framework that minimizes overhead for set up and processing of new projects, yet maintains full flexibility of custom scripting when processing raw sequence data.
+ER  - 
+TY  - JOUR
+T1  - NGS-pipe: a flexible, easily extendable and highly configurable framework for NGS analysis
+A1  - Singer, Jochen
+A1  - Ruscheweyh, Hans-Joachim
+A1  - Hofmann, Ariane L
+A1  - Thurnherr, Thomas
+A1  - Singer, Franziska
+A1  - Toussaint, Nora C
+A1  - Ng, Charlotte K Y
+A1  - Piscuoglio, Salvatore
+A1  - Beisel, Christian
+A1  - Christofori, Gerhard
+A1  - Dummer, Reinhard
+A1  - Hall, Michael N
+A1  - Krek, Wilhelm
+A1  - Levesque, Mitchell P
+A1  - Manz, Markus G
+A1  - Moch, Holger
+A1  - Papassotiropoulos, Andreas
+A1  - Stekhoven, Daniel J
+A1  - Wild, Peter
+A1  - Wust, Thomas
+A1  - Rinn, Bernd
+A1  - Beerenwinkel, Niko
+Y1  - 2018///
+JF  - Bioinformatics
+VL  - 34
+IS  - 1
+SP  - 107
+EP  - 108
+DO  - 10.1093/bioinformatics/btx540
+N1  - ; Piscuoglio, Salvatore/F-9248-2014
+Ng, Charlotte K Y/0000-0002-6100-0026; Moore, Ariane Leoni/0000-0001-7831-5115; Manz, Markus/0000-0002-4676-7931; Toussaint, Nora/0000-0001-7911-7647; Piscuoglio, Salvatore/0000-0003-2686-2939
+3
+N2  - Motivation: Next-generation sequencing is now an established method in genomics, and massive amounts of sequencing data are being generated on a regular basis. Analysis of the sequencing data is typically performed by lab-specific in-house solutions, but the agreement of results from different facilities is often small. General standards for quality control, reproducibility and documentation are missing. Results: We developed NGS-pipe, a flexible, transparent and easy-to-use framework for the design of pipelines to analyze whole-exome, whole-genome and transcriptome sequencing data. NGSpipe facilitates the harmonization of genomic data analysis by supporting quality control, documentation, reproducibility, parallelization and easy adaptation to other NGS experiments. Availability and implementation: https://github.com/cbg-ethz/NGS-pipe Contact: niko.beerenwinkel@bsse.ethz.ch
+ER  - 
+TY  - JOUR
+T1  - Nextflow, an efficient tool to improve computation numerical stability in genomic analysis 
+A1  - Di Tommaso, P
+A1  - Floden, E W
+A1  - Magis, C
+A1  - Palumbo, E
+A1  - Notredame, C
+Y1  - 2017///
+KW  - Nextflow
+KW  - Pipelines
+KW  - Reproducibility
+KW  - Workflow manager
+JF  - Biologie Aujourd'hui
+VL  - 211
+IS  - 3
+SP  - 233
+EP  - 237
+CY  - Comparative Bioinformatics Group, Bioinformatics and Genomics Programme, Center for Genomic Regulation (CRG), Dr Aiguader, 88, Barcelona, 08003, Spain
+DO  - 10.1051/jbio/2017029
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85041819033&doi=10.1051%2Fjbio%2F2017029&partnerID=40&md5=56646952d5b481c1fa217f757bf929f9
+N1  - Export Date: 19 April 2019
+N2  - Reproducing routine bioinformatics analysis is challenging owing to a combination of factors hard to control for. Nextflow is a flow management framework that uses container technology to insure efficient deployment and reproducibility of computational analysis pipelines. Third party pipelines can be ported into Nextflow with minimum re-coding. We used RNA-Seq quantification, genome annotation and phylogeny reconstruction examples to show how two seemingly irreproducible analyzes can be made stable across platforms when ported into Nextflow. © Société de Biologie, 2018.
+ER  - 
+TY  - JOUR
+T1  - NEAT: a framework for building fully automated NGS pipelines and analyses
+A1  - Schorderet, Patrick
+Y1  - 2016///
+JF  - Bmc Bioinformatics
+VL  - 17
+DO  - 10.1186/s12859-016-0902-3
+N1  - 3
+N2  - Background: The analysis of next generation sequencing (NGS) has become a standard task for many laboratories in the life sciences. Though there exists several tools to support users in the manipulation of such datasets on various levels, few are built on the basis of vertical integration. Here, we present the NExt generation Analysis Toolbox (NEAT) that allows non-expert users including wet-lab scientists to comprehensively build, run and analyze NGS data through double-clickable executables without the need of any programming experience. Results: In comparison to many publicly available tools including Galaxy, NEAT provides three main advantages: (1) Through the development of double-clickable executables, NEAT is efficient (completes within <24 hours), easy to implement and intuitive; (2) Storage space, maximum number of job submissions, wall time and cluster-specific parameters can be customized as NEAT is run on the institution's cluster; (3) NEAT allows users to visualize and summarize NGS data rapidly and efficiently using various built-in exploratory data analysis tools including metagenomic and differentially expressed gene analysis. To simplify the control of the workflow, NEAT projects are built around a unique and centralized file containing sample names, replicates, conditions, antibodies, alignment-, filtering-and peak calling parameters as well as cluster-specific paths and settings. Moreover, the small-sized files produced by NEAT allow users to easily manipulate, consolidate and share datasets from different users and institutions. Conclusions: NEAT provides biologists and bioinformaticians with a robust, efficient and comprehensive tool for the analysis of massive NGS datasets. Frameworks such as NEAT not only allow novice users to overcome the increasing number of technical hurdles due to the complexity of manipulating large datasets, but provide more advance users with tools that ensure high reproducibility standards in the NGS era. NEAT is publically available at https://github.com/pschorderet/NEAT.
+ER  - 
+TY  - JOUR
+T1  - Maser: one-stop platform for NGS big data from analysis to visualization
+A1  - Kinjo, Sonoko
+A1  - Monma, Norikazu
+A1  - Misu, Sadahiko
+A1  - Kitamura, Norikazu
+A1  - Imoto, Junichi
+A1  - Yoshitake, Kazutoshi
+A1  - Gojobori, Takashi
+A1  - Ikeo, Kazuho
+Y1  - 2018///
+JF  - Database-the Journal of Biological Databases and Curation
+DO  - 10.1093/database/bay027
+N1  - 2
+N2  - A major challenge in analyzing the data from high-throughput next-generation sequencing < NGS > is how to handle the huge amounts of data and variety of NGS tools and visualize the resultant outputs. To address these issues, we developed a cloud-based data analysis platform, Maser < Management and Analysis System for Enormous Reads >, and an original genome browser, Genome Explorer < GE >. Maser enables users to manage up to 2 terabytes of data to conduct analyses with easy graphical user interface operations and offers analysis pipelines in which several individual tools are combined as a single pipeline for very common and standard analyses. GE automatically visualizes genome assembly and mapping results output from Maser pipelines, without requiring additional data upload. With this function, the Maser pipelines can graphically display the results output from all the embedded tools and mapping results in a web browser. Therefore Maser realized a more user-friendly analysis platform especially for beginners by improving graphical display and providing the selected standard pipelines that work with built-in genome browser. In addition, all the analyses executed on Maser are recorded in the analysis history, helping users to trace and repeat the analyses. The entire process of analysis and its histories can be shared with collaborators or opened to the public. In conclusion, our system is useful for managing, analyzing, and visualizing NGS data and achieves traceability, reproducibility, and transparency of NGS analysis.
+ER  - 
+TY  - JOUR
+T1  - MAP-RSeq: Mayo Analysis Pipeline for RNA sequencing
+A1  - Kalari, Krishna R
+A1  - Nair, Asha A
+A1  - Bhavsar, Jaysheel D
+A1  - O'Brien, Daniel R
+A1  - Davila, Jaime I
+A1  - Bockol, Matthew A
+A1  - Nie, Jinfu
+A1  - Tang, Xiaojia
+A1  - Baheti, Saurabh
+A1  - Doughty, Jay B
+A1  - Middha, Sumit
+A1  - Sicotte, Hugues
+A1  - Thompson, Aubrey E
+A1  - Asmann, Yan W
+A1  - Kocher, Jean-Pierre A
+Y1  - 2014///
+JF  - Bmc Bioinformatics
+VL  - 15
+DO  - 10.1186/1471-2105-15-224
+N1  - Tang, Xiaojia/0000-0003-2457-9953; Kalari, Krishna/0000-0001-8944-8378; Middha, Sumit/0000-0003-4135-6268
+74
+N2  - Background: Although the costs of next generation sequencing technology have decreased over the past years, there is still a lack of simple-to-use applications, for a comprehensive analysis of RNA sequencing data. There is no one-stop shop for transcriptomic genomics. We have developed MAP-RSeq, a comprehensive computational workflow that can be used for obtaining genomic features from transcriptomic sequencing data, for any genome. Results: For optimization of tools and parameters, MAP-RSeq was validated using both simulated and real datasets. MAP-RSeq workflow consists of six major modules such as alignment of reads, quality assessment of reads, gene expression assessment and exon read counting, identification of expressed single nucleotide variants (SNVs), detection of fusion transcripts, summarization of transcriptomics data and final report. This workflow is available for Human transcriptome analysis and can be easily adapted and used for other genomes. Several clinical and research projects at the Mayo Clinic have applied the MAP-RSeq workflow for RNA-Seq studies. The results from MAP-RSeq have thus far enabled clinicians and researchers to understand the transcriptomic landscape of diseases for better diagnosis and treatment of patients. Conclusions: Our software provides gene counts, exon counts, fusion candidates, expressed single nucleotide variants, mapping statistics, visualizations, and a detailed research data report for RNA-Seq. The workflow can be executed on a standalone virtual machine or on a parallel Sun Grid Engine cluster. The software can be downloaded from http://bioinformaticstools.mayo.edu/research/maprseq/.
+ER  - 
+TY  - JOUR
+T1  - HTSstation: A Web Application and Open-Access Libraries for High-Throughput Sequencing Data Analysis
+A1  - David, Fabrice P A
+A1  - Delafontaine, Julien
+A1  - Carat, Solenne
+A1  - Ross, Frederick J
+A1  - Lefebvre, Gregory
+A1  - Jarosz, Yohan
+A1  - Sinclair, Lucas
+A1  - Noordermeer, Daan
+A1  - Rougemont, Jacques
+A1  - Leleu, Marion
+Y1  - 2014///
+JF  - Plos One
+VL  - 9
+IS  - 1
+DO  - 10.1371/journal.pone.0085879
+N1  - Noordermeer, Daan/F-3306-2011
+Noordermeer, Daan/0000-0002-9296-7002; Sinclair, Lucas/0000-0003-4134-3571; dumont, solenne/0000-0003-3237-7382
+34
+N2  - The HTSstation analysis portal is a suite of simple web forms coupled to modular analysis pipelines for various applications of High-Throughput Sequencing including ChIP-seq, RNA-seq, 4C-seq and re-sequencing. HTSstation offers biologists the possibility to rapidly investigate their HTS data using an intuitive web application with heuristically pre-defined parameters. A number of open-source software components have been implemented and can be used to build, configure and run HTS analysis pipelines reactively. Besides, our programming framework empowers developers with the possibility to design their own workflows and integrate additional third-party software. The HTSstation web application is accessible at http://htsstation.epfl.ch.
+ER  - 
+TY  - JOUR
+T1  - HTSeq-a Python framework to work with high-throughput sequencing data
+A1  - Anders, Simon
+A1  - Pyl, Paul Theodor
+A1  - Huber, Wolfgang
+Y1  - 2015///
+JF  - Bioinformatics
+VL  - 31
+IS  - 2
+SP  - 166
+EP  - 169
+DO  - 10.1093/bioinformatics/btu638
+N1  - Anders, Simon/D-4087-2011; Pyl, Paul Theodor/K-5034-2015
+Anders, Simon/0000-0003-4868-1805; Pyl, Paul Theodor/0000-0002-7651-883X; Huber, Wolfgang/0000-0002-0474-2218
+14th Annual Bioinformatics Open Source Conference (BOSC)
+Jul 19-20, 2013
+Special Interest Grp, Berlin, GERMANY
+Open Bioinformat Fdn
+3840
+N2  - Motivation: A large choice of tools exists for many standard tasks in the analysis of high-throughput sequencing (HTS) data. However, once a project deviates from standard workflows, custom scripts are needed. Results: We present HTSeq, a Python library to facilitate the rapid development of such scripts. HTSeq offers parsers for many common data formats in HTS projects, as well as classes to represent data, such as genomic coordinates, sequences, sequencing reads, alignments, gene model information and variant calls, and provides data structures that allow for querying via genomic coordinates. We also present htseq-count, a tool developed with HTSeq that preprocesses RNA-Seq data for differential expression analysis by counting the overlap of reads with genes.
+ER  - 
+TY  - JOUR
+T1  - Harnessing virtual machines to simplify next-generation DNA sequencing analysis
+A1  - Nocq, Julie
+A1  - Celton, Magalie
+A1  - Gendron, Patrick
+A1  - Lemieux, Sebastien
+A1  - Wilhelm, Brian T
+Y1  - 2013///
+JF  - Bioinformatics
+VL  - 29
+IS  - 17
+SP  - 2075
+EP  - 2083
+DO  - 10.1093/bioinformatics/btt352
+N1  - Gendron, Patrick/0000-0001-9829-2600
+16
+N2  - Motivation: The growth of next-generation sequencing (NGS) has not only dramatically accelerated the pace of research in the field of genomics, but it has also opened the door to personalized medicine and diagnostics. The resulting flood of data has led to the rapid development of large numbers of bioinformatic tools for data analysis, creating a challenging situation for researchers when choosing and configuring a variety of software for their analysis, and for other researchers trying to replicate their analysis. As NGS technology continues to expand from the research environment into clinical laboratories, the challenges associated with data analysis have the potential to slow the adoption of this technology. Results: Here we discuss the potential of virtual machines (VMs) to be used as a method for sharing entire installations of NGS software (bioinformatic 'pipelines'). VMs are created by programs designed to allow multiple operating systems to co-exist on a single physical machine, and they can be made following the object-oriented paradigm of encapsulating data and methods together. This allows NGS data to be distributed within a VM, along with the pre-configured software for its analysis. Although VMs have historically suffered from poor performance relative to native operating systems, we present benchmarking results demonstrating that this reduced performance can now be minimized. We further discuss the many potential benefits of VMs as a solution for NGS analysis and describe several published examples. Lastly, we consider the benefits of VMs in facilitating the introduction of NGS technology into the clinical environment.
+ER  - 
+TY  - JOUR
+T1  - Genome Modeling System: A Knowledge Management Platform for Genomics
+A1  - Griffith, Malachi
+A1  - Griffith, Obi L
+A1  - Smith, Scott M
+A1  - Ramu, Avinash
+A1  - Callaway, Matthew B
+A1  - Brummett, Anthony M
+A1  - Kiwala, Michael J
+A1  - Coffman, Adam C
+A1  - Regier, Allison A
+A1  - Oberkfell, Ben J
+A1  - Sanderson, Gabriel E
+A1  - Mooney, Thomas P
+A1  - Nutter, Nathaniel G
+A1  - Belter, Edward A
+A1  - Du, Feiyu
+A1  - Long, Robert L
+A1  - Abbott, Travis E
+A1  - Ferguson, Ian T
+A1  - Morton, David L
+A1  - Burnett, Mark M
+A1  - Weible, James V
+A1  - Peck, Joshua B
+A1  - Dukes, Adam
+A1  - McMichael, Joshua F
+A1  - Lolofie, Justin T
+A1  - Derickson, Brian R
+A1  - Hundal, Jasreet
+A1  - Skidmore, Zachary L
+A1  - Ainscough, Benjamin J
+A1  - Dees, Nathan D
+A1  - Schierding, William S
+A1  - Kandoth, Cyriac
+A1  - Kim, Kyung H
+A1  - Lu, Charles
+A1  - Harris, Christopher C
+A1  - Maher, Nicole
+A1  - Maher, Christopher A
+A1  - Magrini, Vincent J
+A1  - Abbott, Benjamin S
+A1  - Chen, Ken
+A1  - Clark, Eric
+A1  - Das, Indraniel
+A1  - Fan, Xian
+A1  - Hawkins, Amy E
+A1  - Hepler, Todd G
+A1  - Wylie, Todd N
+A1  - Leonard, Shawn M
+A1  - Schroeder, William E
+A1  - Shi, Xiaoqi
+A1  - Carmichael, Lynn K
+A1  - Weil, Matthew R
+A1  - Wohlstadter, Richard W
+A1  - Stiehr, Gary
+A1  - McLellan, Michael D
+A1  - Pohl, Craig S
+A1  - Miller, Christopher A
+A1  - Koboldt, Daniel C
+A1  - Walker, Jason R
+A1  - Eldred, James M
+A1  - Larson, David E
+A1  - Dooling, David J
+A1  - Ding, Li
+A1  - Mardis, Elaine R
+A1  - Wilson, Richard K
+Y1  - 2015///
+JF  - Plos Computational Biology
+VL  - 11
+IS  - 7
+DO  - 10.1371/journal.pcbi.1004274
+N1  - ; Griffith, Malachi/P-1285-2014
+Ainscough, Benjamin/0000-0001-8340-514X; Ramu, Avinash/0000-0003-3799-809X; Skidmore, Zachary/0000-0003-1928-7139; Griffith, Obi/0000-0002-0843-4271; Schierding, William/0000-0001-5659-2701; Miller, Christopher/0000-0003-4266-6700; Griffith, Malachi/0000-0002-6388-446X
+35
+N2  - In this work, we present the Genome Modeling System (GMS), an analysis information management system capable of executing automated genome analysis pipelines at a massive scale. The GMS framework provides detailed tracking of samples and data coupled with reliable and repeatable analysis pipelines. The GMS also serves as a platform for bioinformatics development, allowing a large team to collaborate on data analysis, or an individual researcher to leverage the work of others effectively within its data management system. Rather than separating ad-hoc analysis from rigorous, reproducible pipelines, the GMS promotes systematic integration between the two. As a demonstration of the GMS, we performed an integrated analysis of whole genome, exome and transcriptome sequencing data from a breast cancer cell line (HCC1395) and matched lymphoblastoid line (HCC1395BL). These data are available for users to test the software, complete tutorials and develop novel GMS pipeline configurations.
+ER  - 
+TY  - JOUR
+T1  - Galaxy: a comprehensive approach for supporting accessible, reproducible, and transparent computational research in the life sciences
+A1  - Goecks, Jeremy
+A1  - Nekrutenko, Anton
+A1  - Taylor, James
+A1  - Galaxy, Team
+Y1  - 2010///
+JF  - Genome Biology
+VL  - 11
+IS  - 8
+DO  - 10.1186/gb-2010-11-8-r86
+N1  - Taylor, James/F-1026-2011
+Taylor, James/0000-0001-5079-840X; Nekrutenko, Anton/0000-0002-5987-8032; lazarus, ross/0000-0003-3939-1961
+1950
+N2  - Increased reliance on computational approaches in the life sciences has revealed grave concerns about how accessible and reproducible computation-reliant results truly are. Galaxy http://usegalaxy.org, an open web-based platform for genomic research, addresses these problems. Galaxy automatically tracks and manages data provenance and provides support for capturing the context and intent of computational methods. Galaxy Pages are interactive, web-based documents that provide users with a medium to communicate a complete computational analysis.
+ER  - 
+TY  - JOUR
+T1  - Flexible and Accessible Workflows for Improved Proteogenomic Analysis Using the Galaxy Framework
+A1  - Jagtap, Pratik D
+A1  - Johnson, James E
+A1  - Onsongo, Getiria
+A1  - Sadler, Fredrik W
+A1  - Murray, Kevin
+A1  - Wang, Yuanbo
+A1  - Shenykrnan, Gloria M
+A1  - Bandhakavi, Sricharan
+A1  - Smith, Lloyd M
+A1  - Griffin, Timothy J
+Y1  - 2014///
+JF  - Journal of Proteome Research
+VL  - 13
+IS  - 12
+SP  - 5898
+EP  - 5908
+DO  - 10.1021/pr500812t
+N1  - Jagtap, Pratik/0000-0003-0984-0973
+45
+N2  - Proteogenomics combines large-scale genomic and transcriptomic data with mass-spectrometry-based proteomic data to discover novel protein sequence variants and improve genome annotation. In contrast with conventional proteomic applications, proteogenomic analysis requires a number of additional data processing steps. Ideally, these required steps would be integrated and automated via a single software platform offering accessibility for wet-bench researchers as well as flexibility for user-specific customization and integration of new software tools as they emerge. Toward this end, we have extended the Galaxy bioinformatics framework to facilitate proteogenomic analysis. Using analysis of whole human saliva as an example, we demonstrate Galaxys flexibility through the creation of a modular workflow incorporating both established and customized software tools that improve depth and quality of proteogenomic results. Our customized Galaxy-based software includes automated, batch-mode BLASTP searching and a Peptide Sequence Match Evaluator tool, both useful for evaluating the veracity of putative novel peptide identifications. Our complex workflow (approximately 140 steps) can be easily shared using built-in Galaxy functions, enabling their use and customization by others. Our results provide a blueprint for the establishment of the Galaxy framework as an ideal solution for the emerging field of proteogenomics.
+ER  - 
+TY  - JOUR
+T1  - ExScalibur: A High-Performance Cloud-Enabled Suite for Whole Exome Germline and Somatic Mutation Identification
+A1  - Bao, Riyue
+A1  - Hernandez, Kyle
+A1  - Huang, Lei
+A1  - Kang, Wenjun
+A1  - Bartom, Elizabeth
+A1  - Onel, Kenan
+A1  - Volchenboum, Samuel
+A1  - Andrade, Jorge
+Y1  - 2015///
+JF  - Plos One
+VL  - 10
+IS  - 8
+DO  - 10.1371/journal.pone.0135800
+N1  - Bartom, Elizabeth/S-4475-2017
+Bartom, Elizabeth/0000-0002-5618-2582; Andrade, Jorge/0000-0003-3210-2186
+5
+N2  - Whole exome sequencing has facilitated the discovery of causal genetic variants associated with human diseases at deep coverage and low cost. In particular, the detection of somatic mutations from tumor/normal pairs has provided insights into the cancer genome. Although there is an abundance of publicly-available software for the detection of germline and somatic variants, concordance is generally limited among variant callers and alignment algorithms. Successful integration of variants detected by multiple methods requires in-depth knowledge of the software, access to high-performance computing resources, and advanced programming techniques. We present ExScalibur, a set of fully automated, highly scalable and modulated pipelines for whole exome data analysis. The suite integrates multiple alignment and variant calling algorithms for the accurate detection of germline and somatic mutations with close to 99% sensitivity and specificity. ExScalibur implements streamlined execution of analytical modules, real-time monitoring of pipeline progress, robust handling of errors and intuitive documentation that allows for increased reproducibility and sharing of results and workflows. It runs on local computers, high-performance computing clusters and cloud environments. In addition, we provide a data analysis report utility to facilitate visualization of the results that offers interactive exploration of quality control files, read alignment and variant calls, assisting downstream customization of potential disease-causing mutations. ExScalibur is open-source and is also available as a public image on Amazon cloud.
+ER  - 
+TY  - JOUR
+T1  - expVIP: A customizable RNA-seq data analysis and visualization platform
+A1  - Borrill, P
+A1  - Ramirez-Gonzalez, R
+A1  - Uauy, C
+Y1  - 2016///
+JF  - Plant Physiology
+VL  - 170
+IS  - 4
+SP  - 2172
+EP  - 2186
+CY  - John Innes Centre, Norwich, NR4 7UH, United Kingdom
+DO  - 10.1104/pp.15.01667
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-84962108485&doi=10.1104%2Fpp.15.01667&partnerID=40&md5=65f02a65fa072b7d49708a7d8251bbcb
+N1  - Cited By :41
+
+Export Date: 24 April 2019
+N2  - The majority of transcriptome sequencing (RNA-seq) expression studies in plants remain underutilized and inaccessible due to the use of disparate transcriptome references and the lack of skills and resources to analyze and visualize these data. We have developed expVIP, an expression visualization and integration platform, which allows easy analysis of RNA-seq data combined with an intuitive and interactive interface. Users can analyze public and user-specified data sets with minimal bioinformatics knowledge using the expVIP virtual machine. This generates a custom Web browser to visualize, sort, and filter the RNA-seq data and provides outputs for differential gene expression analysis. We demonstrate expVIP’s suitability for polyploid crops and evaluate its performance across a range of biologically relevant scenarios. To exemplify its use in crop research, we developed a flexible wheat (Triticum aestivum) expression browser (www.wheat-expression.com) that can be expanded with user-generated data in a local virtual machine environment. The open-access expVIP platform will facilitate the analysis of gene expression data from a wide variety of species by enabling the easy integration, visualization, and comparison of RNA-seq data across experiments. © 2016 American Society of Plant Biologists. All rights reserved.
+ER  - 
+TY  - JOUR
+T1  - DockerBIO: Web application for efficient use of bioinformatics Docker images
+A1  - Kwon, C
+A1  - Kim, J
+A1  - Ahn, J
+Y1  - 2018///
+KW  - Bioinformatics
+KW  - DNA pipeline
+KW  - DNA-Seq
+KW  - Docker
+KW  - Dockerbio
+KW  - Mygenomebox
+KW  - NGS pipeline
+KW  - RNA pipeline
+KW  - RNA-Seq
+JF  - PeerJ
+VL  - 2018
+IS  - 11
+CY  - Department of Computer Science and Engineering, Incheon National University, Incheon, South Korea
+DO  - 10.7717/peerj.5954
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85057725086&doi=10.7717%2Fpeerj.5954&partnerID=40&md5=26a4c31ea1abdfa4f87a744d5f0db36f
+N1  - Export Date: 19 April 2019
+N2  - Background and Objective: Docker is a light containerization program that shows almost the same performance as a local environment. Recently, many bioinformatics tools have been distributed as Docker images that include complex settings such as libraries, configurations, and data if needed, as well as the actual tools. Users can simply download and run them without making the effort to compile and configure them, and can obtain reproducible results. In spite of these advantages, several problems remain. First, there is a lack of clear standards for distribution of Docker images, and the Docker Hub often provides multiple images with the same objective but different uses. For these reasons, it can be difficult for users to learn how to select and use them. Second, Docker images are often not suitable as a component of a pipeline, because many of them include big data. Moreover, a group of users can have difficulties when sharing a pipeline composed of Docker images. Users of a group may modify scripts or use different versions of the data, which causes inconsistent results. Methods and Results: To handle the problems described above, we developed a Java web application, DockerBIO, which provides reliable, verified, light-weight Docker images for various bioinformatics tools and for various kinds of reference data. With DockerBIO, users can easily build a pipeline with tools and data registered at DockerBIO, and if necessary, users can easily register new tools or data. Built pipelines are registered in DockerBIO, which provides an efficient running environment for the pipelines registered at DockerBIO. This enables user groups to run their pipelines without expending much effort to copy and modify them. Copyright 2018 Kwon et al.
+ER  - 
+TY  - JOUR
+T1  - DNAp: A Pipeline for DNA-seq Data Analysis
+A1  - Causey, Jason L
+A1  - Ashby, Cody
+A1  - Walker, Karl
+A1  - Wang, Zhiping Paul
+A1  - Yang, Mary
+A1  - Guan, Yuanfang
+A1  - Moore, Jason H
+A1  - Huang, Xiuzhen
+Y1  - 2018///
+JF  - Scientific Reports
+VL  - 8
+DO  - 10.1038/s41598-018-25022-6
+N1  - Causey, Jason/0000-0002-3985-2919; Ashby, Cody/0000-0002-9361-0283
+1
+N2  - Next-generation sequencing is empowering genetic disease research. However, it also brings significant challenges for efficient and effective sequencing data analysis. We built a pipeline, called DNAp, for analyzing whole exome sequencing (WES) and whole genome sequencing (WGS) data, to detect mutations from disease samples. The pipeline is containerized, convenient to use and can run under any system, since it is a fully automatic process in Docker container form. It is also open, and can be easily customized with user intervention points, such as for updating reference files and different software or versions. The pipeline has been tested with both human and mouse sequencing datasets, and it has generated mutations results, comparable to published results from these datasets, and reproducible across heterogeneous hardware platforms. The pipeline DNAp, funded by the US Food and Drug Administration (FDA), was developed for analyzing DNA sequencing data of FDA. Here we make DNAp an open source, with the software and documentation available to the public at http://bioinformatics.astate.edu/dna-pipeline/.
+ER  - 
+TY  - JOUR
+T1  - Data analysis pipeline for RNA-seq experiments: From differential expression to cryptic splicing
+A1  - Yalamanchili, H K
+A1  - Wan, Y.-W.
+A1  - Liu, Z
+Y1  - 2017///
+KW  - Alternative splicing
+KW  - Cryptic splicing
+KW  - Differential gene expression
+KW  - Differential isoform usage
+KW  - RNA-seq
+JF  - Current Protocols in Bioinformatics
+VL  - 2017
+SP  - 11.15.1
+EP  - 11.15.21
+CY  - Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, United States
+DO  - 10.1002/cpbi.33
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85029427689&doi=10.1002%2Fcpbi.33&partnerID=40&md5=6fd1bcd58063b42d82d11ed050de4dd0
+N1  - Cited By :2
+Export Date: 19 April 2019
+N2  - RNA sequencing (RNA-seq) is a high-throughput technology that provides unique insights into the transcriptome. It has a wide variety of applications in quantifying genes/isoforms and in detecting non-coding RNA, alternative splicing, and splice junctions. It is extremely important to comprehend the entire transcriptome for a thorough understanding of the cellular system. Several RNA-seq analysis pipelines have been proposed to date. However, no single analysis pipeline can capture dynamics of the entire transcriptome. Here, we compile and present a robust and commonly used analytical pipeline covering the entire spectrum of transcriptome analysis, including quality checks, alignment of reads, differential gene/transcript expression analysis, discovery of cryptic splicing events, and visualization. Challenges, critical parameters, and possible downstream functional analysis pipelines associated with each step are highlighted and discussed. This unit provides a comprehensive understanding of state-of-the-art RNA-seq analysis pipeline and a greater understanding of the transcriptome. © 2017 by John Wiley & Sons, Inc.
+ER  - 
+TY  - JOUR
+T1  - BioJupies: Automated Generation of Interactive Notebooks for RNA-Seq Data Analysis in the Cloud
+A1  - Torre, D
+A1  - Lachmann, A
+A1  - Ma'ayan, A
+Y1  - 2018///
+KW  - Data Commons
+KW  - Jupyter Notebook
+KW  - RNA-seq
+KW  - bioinformatics
+KW  - data visualization
+KW  - enrichment analysis
+KW  - pipeline
+KW  - systems biology
+JF  - Cell Systems
+VL  - 7
+IS  - 5
+SP  - 556
+EP  - 561.e3
+CY  - Department of Pharmacological Sciences, BD2K-LINCS Data Coordination and Integration Center (DCIC), Mount Sinai Center for Bioinformatics, Knowledge Management Center (KMC) for Illuminating the Druggable Genome (IDG), Team Nitrogen of the NIH Data Commons
+DO  - 10.1016/j.cels.2018.10.007
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85057549863&doi=10.1016%2Fj.cels.2018.10.007&partnerID=40&md5=c8a366baf9857bf6fec6263c89cbd492
+N1  - Cited By :3
+
+Export Date: 19 April 2019
+N2  - Interactive notebooks can make bioinformatics data analyses more transparent, accessible, and reusable. However, creating notebooks requires computer programming expertise. BioJupies is a web application that enables automated generation of Jupyter Notebook reports containing complete and comprehensive RNA-seq data analysis. Through an intuitive interface, users are guided through the steps of analysis, starting from uploading their raw sequencing files to gene expression tables to selecting tools, parameters, and visualization options to generating the Jupyter Notebook. Generated notebooks have executable and customizable code of the entire pipeline, rich narrative text, and interactive data visualizations and are permanently hosted in the cloud. BioJupies is freely available at http://biojupies.cloud. © 2018 Elsevier Inc. BioJupies is a web application that enables the automated creation, storage, and deployment of Jupyter Notebooks containing RNA-seq data analyses. Through an intuitive interface, novice users can rapidly generate tailored reports to analyze and visualize their own raw sequencing files, gene expression tables, or fetch data from >9,000 published studies containing >300,000 preprocessed RNA-seq samples. Generated notebooks have the executable code of the entire pipeline, rich narrative text, interactive data visualizations, differential expression, and enrichment analyses. The notebooks are permanently stored in the cloud and made available online through a persistent URL. The notebooks are downloadable, customizable, and can run within a Docker container. By providing an intuitive user interface for notebook generation for RNA-seq data analysis, starting from the raw reads all the way to a complete interactive and reproducible report, BioJupies is a useful resource for experimental and computational biologists. BioJupies is freely available as a web-based application from http://biojupies.cloud. © 2018 Elsevier Inc.
+ER  - 
+TY  - JOUR
+T1  - Bio-Docklets: Virtualization containers for single-step execution of NGS pipelines
+A1  - Kim, B
+A1  - Ali, T
+A1  - Lijeron, C
+A1  - Afgan, E
+A1  - Krampis, K
+Y1  - 2017///
+KW  - Bioinformatics
+KW  - CHIPseq
+KW  - Docker
+KW  - NGS
+KW  - RNAseq
+JF  - GigaScience
+VL  - 6
+IS  - 8
+CY  - Center for Translational and Basic Research and Belfer Research Building, Hunter College of The City, University of New York, 413 E 69th St, New York, NY  10021, United States
+DO  - 10.1093/gigascience/gix048
+UR  - https://www.scopus.com/inward/record.uri?eid=2-s2.0-85042163079&doi=10.1093%2Fgigascience%2Fgix048&partnerID=40&md5=ee5a76375974cbc56fae05f6b0934cc6
+N1  - Cited By :4
+Export Date: 19 April 2019
+N2  - Processing of next-generation sequencing (NGS) data requires significant technical skills, involving installation, configuration, and execution of bioinformatics data pipelines, in addition to specialized postanalysis visualization and data mining software. In order to address some of these challenges, developers have leveraged virtualization containers toward seamless deployment of preconfigured bioinformatics software and pipelines on any computational platform. We present an approach for abstracting the complex data operations of multistep, bioinformatics pipelines for NGS data analysis. As examples, we have deployed 2 pipelines for RNA sequencing and chromatin immunoprecipitation sequencing, preconfigured within Docker virtualization containers we call Bio-Docklets. Each Bio-Docklet exposes a single data input and output endpoint and from a user perspective, running the pipelines as simply as running a single bioinformatics tool. This is achieved using a "meta-script" that automatically starts the Bio-Docklets and controls the pipeline execution through the BioBlend software library and the Galaxy Application Programming Interface. The pipeline output is postprocessed by integration with the Visual Omics Explorer framework, providing interactive data visualizations that users can access through a web browser. Our goal is to enable easy access to NGS data analysis pipelines for nonbioinformatics experts on any computing environment, whether a laboratory workstation, university computer cluster, or a cloud service provider. Beyond end users, the Bio-Docklets also enables developers to programmatically deploy and run a large number of pipeline instances for concurrent analysis of multiple datasets. © The Author 2017. Published by Oxford University Press.
+ER  - 
+TY  - BOOK
+T1  - Automating Deployment of Customized Scientific Data Analytic Environments on Clouds
+A1  - Jin, Chao
+A1  - Wu, Wenjun
+A1  - Zhang, Hui
+ED  - Chen, J
+ED  - Yang, L T
+Y1  - 2014///
+JF  - 2014 Ieee Fourth International Conference on Big Data and Cloud Computing
+SP  - 41
+EP  - 48
+SN  - 978-1-4799-6719-3
+DO  - 10.1109/BDCloud.2014.22
+N1  - Bdcloud
+IEEE Fourth International Conference on Big Data and Cloud Computing (BdCloud)
+Dec 03-05, 2014
+Sydney, AUSTRALIA
+CPS; IEEE Comp Soc
+N2  - Cloud computing has become a widely used solution for efficiently provisioning computational and storage resources. Meanwhile, it is essential to provide customizable scientific data analytic platforms for researchers to conduct their personalized data intensive analysis. The integration of scientific data analytics and Cloud computing has the potential to improve resource utilization and facilitate the development of scientific researches. This paper proposes an automatic deployment framework for deploying computing environments on Clouds for every customized scientific data analytics. To achieve customization and deployment functionalities, this framework has two major components: customization service and workspace deployment service. Users are allowed to customize their personalized scientific data analytics and required Cloud resources under the customization service. A workspace language is defined in the workspace deployment service to describe the requirements of computing resources and software tools of a scientific data analytics. Workspace deployment service then adopts Chef to deploy corresponding computing environments on Clouds based on the workspace descriptions. We also implement a system based on this automatic deployment framework and present a RNA-seq analysis use case to demonstrate how this framework and its system can be used in practice.
+ER  - 
+TY  - JOUR
+T1  - An integrated ChIP-seq analysis platform with customizable workflows
+A1  - Giannopoulou, Eugenia G
+A1  - Elemento, Olivier
+Y1  - 2011///
+JF  - Bmc Bioinformatics
+VL  - 12
+DO  - 10.1186/1471-2105-12-277
+N1  - 58
+N2  - Background: Chromatin immunoprecipitation followed by next generation sequencing (ChIP-seq), enables unbiased and genome-wide mapping of protein-DNA interactions and epigenetic marks. The first step in ChIP-seq data analysis involves the identification of peaks (i.e., genomic locations with high density of mapped sequence reads). The next step consists of interpreting the biological meaning of the peaks through their association with known genes, pathways, regulatory elements, and integration with other experiments. Although several programs have been published for the analysis of ChIP-seq data, they often focus on the peak detection step and are usually not well suited for thorough, integrative analysis of the detected peaks. Results: To address the peak interpretation challenge, we have developed ChIPseeqer, an integrative, comprehensive, fast and user-friendly computational framework for in-depth analysis of ChIP-seq datasets. The novelty of our approach is the capability to combine several computational tools in order to create easily customized workflows that can be adapted to the user's needs and objectives. In this paper, we describe the main components of the ChIPseeqer framework, and also demonstrate the utility and diversity of the analyses offered, by analyzing a published ChIP-seq dataset. Conclusions: ChIPseeqer facilitates ChIP-seq data analysis by offering a flexible and powerful set of computational tools that can be used in combination with one another. The framework is freely available as a user-friendly GUI application, but all programs are also executable from the command line, thus providing flexibility and automatability for advanced users.
+ER  - 
+TY  - JOUR
+T1  - Agalma: an automated phylogenomics workflow
+A1  - Dunn, Casey W
+A1  - Howison, Mark
+A1  - Zapata, Felipe
+Y1  - 2013///
+JF  - Bmc Bioinformatics
+VL  - 14
+DO  - 10.1186/1471-2105-14-330
+N1  - Dunn, Casey/0000-0003-0628-5150; Howison, Mark/0000-0002-0764-4090; Zapata, Felipe/0000-0002-9386-0573
+54
+N2  - Background: In the past decade, transcriptome data have become an important component of many phylogenetic studies. They are a cost-effective source of protein-coding gene sequences, and have helped projects grow from a few genes to hundreds or thousands of genes. Phylogenetic studies now regularly include genes from newly sequenced transcriptomes, as well as publicly available transcriptomes and genomes. Implementing such a phylogenomic study, however, is computationally intensive, requires the coordinated use of many complex software tools, and includes multiple steps for which no published tools exist. Phylogenomic studies have therefore been manual or semiautomated. In addition to taking considerable user time, this makes phylogenomic analyses difficult to reproduce, compare, and extend. In addition, methodological improvements made in the context of one study often cannot be easily applied and evaluated in the context of other studies. Results: We present Agalma, an automated tool that constructs matrices for phylogenomic analyses. The user provides raw Illumina transcriptome data, and Agalma produces annotated assemblies, aligned gene sequence matrices, a preliminary phylogeny, and detailed diagnostics that allow the investigator to make extensive assessments of intermediate analysis steps and the final results. Sequences from other sources, such as externally assembled genomes and transcriptomes, can also be incorporated in the analyses. Agalma is built on the BioLite bioinformatics framework, which tracks provenance, profiles processor and memory use, records diagnostics, manages metadata, installs dependencies, logs version numbers and calls to external programs, and enables rich HTML reports for all stages of the analysis. Agalma includes a small test data set and a built-in test analysis of these data. In addition to describing Agalma, we here present a sample analysis of a larger seven-taxon data set. Agalma is available for download at https://bitbucket.org/caseywdunn/agalma. Conclusions: Agalma allows complex phylogenomic analyses to be implemented and described unambiguously as a series of high-level commands. This will enable phylogenomic studies to be readily reproduced, modified, and extended. Agalma also facilitates methods development by providing a complete modular workflow, bundled with test data, that will allow further optimization of each step in the context of a full phylogenomic analysis.
+ER  - 

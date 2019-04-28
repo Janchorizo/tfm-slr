@@ -122,27 +122,29 @@ The result of applying the inclusion and exclusion crteria is a set of __133__ a
 proposed; framed in the design and implementation of bioinformatic workflows/pipelines in the context
 of wes and rnaseq analysis.
 
-### Applying the inclusion and exclusion criteria to full-text selected articles
-Previously defined inclusion and exclusion criteria is applyed to the filtered articles,
-in the full-text version to verify they are relevant to the research question.
-
 ## Excluding articles during data extraction
 While reapplying the inclusion and exclusion criteria, if an article shows to be not relevant to
 the research questions, it is excluded from the list of articles to be used in the final revision.
 
+There were a total of __69__ articles that were rejected while applying the quality criteria, 
+because of unfulfillment of the inclusion criteria or irrelevance to the proposed research questions.
+
 ## Applying quality checks to the articles
 To ensure that the revised articles contribute in a suficient manner, and with a minimum of alignment
 to the research questions proposed, a set of quality checks are applyed to each individual article.
-Each of the questions contributes with a different value, adding up to a maximum of 10.
+Each of the questions contributes with a different value, adding up to a maximum of 7.
 
-The minimum score of an article to be selected for analysis is 7. This is an arbitrary value
+The minimum score of an article to be selected for analysis is 4. This is an arbitrary value
 selected taking into account the articles that fulfil these.
 
 The questions and scores are the following :
-1. (2) Is the workflow/pipeline used/proposed documented well enough to be reproduced?
+1. (1) Is the workflow/pipeline used/proposed documented well enough to be reproduced?
 2. (1) Can the workflow/pipeline be automated?
 3. (1) The solution makes use of well known models for describing the workflow/pipeline?
 4. (1) Is the workflow/pipeline data agnostic?
-5. (2) Is the workflow/pipeline able to be distributed?
+5. (1) Is the workflow/pipeline able to be distributed?
 6. (1) The workflow/pipeline provides a way to be extended?
-7. (2) The research assesses reproducibility in bioinformatic experiments? 
+7. (1) The research assesses reproducibility in bioinformatic experiments? 
+
+After applying the quality criteria, there are total of __37__ articles that were included in the revision
+of the literacy.
