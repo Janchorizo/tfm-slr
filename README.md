@@ -61,13 +61,13 @@ Only articles are revised, excluding those earlier to 2017 and from different fi
 _Reference query_
 ((rna-seq OR rnaseq OR “rna seq*”) OR ”whole exome sequenc*”) AND (“pipeline” OR “schem*” OR ("framework" AND "software") OR "automate" OR ("experiment" AND "reproducibility"))
 
-#### WoS 1 (635) (https://github.com/Janchorizo/tfm-slr/blob/revision/wos_1.ris)[wos_1.ris]
+#### WoS 1 (635) [wos_1.ris](https://github.com/Janchorizo/tfm-slr/blob/revision/wos_1.ris)
 TOPIC: (( ( ( rna-seq OR rnaseq OR "rna seq*" ) OR "whole exome sequenc*" ) AND ( "pipeline" OR “schem*” OR ("framework" AND "software") OR "automate" OR ("experiment" AND "reproducibility") ) ))
 Refined by: RESEARCH DOMAINS: ( SCIENCE TECHNOLOGY ) AND RESEARCH DOMAINS: ( SCIENCE TECHNOLOGY ) AND DOCUMENT TYPES: ( ARTICLE ) AND Databases: ( WOS OR MEDLINE )
 Timespan: 2017-2019. Databases:  WOS, CCC, DIIDW, KJD, MEDLINE, RSCI, SCIELO.
 Search language=Auto  
 
-#### Scopus 1 (575) (https://github.com/Janchorizo/tfm-slr/blob/revision/scopus_1.ris)[scopus_1.ris]
+#### Scopus 1 (575) [scopus_1.ris](https://github.com/Janchorizo/tfm-slr/blob/revision/scopus_1.ris)
 TITLE-ABS-KEY ( ( ( rna-seq OR rnaseq OR "rna seq*" ) OR "whole exome sequenc*" ) 
 AND ( "pipeline" OR “schem*”
     OR ("framework" AND "software") 
@@ -80,12 +80,12 @@ OR LIMIT-TO ( PUBYEAR,2018)
 OR LIMIT-TO ( PUBYEAR,2017) )
 AND  ( LIMIT-TO ( DOCTYPE ,  "ar" ) ) 
 
-#### WoS 1 (472) (https://github.com/Janchorizo/tfm-slr/blob/revision/wos_2.ris)[wos_2.ris]
+#### WoS 1 (472) [wos_2.ris](https://github.com/Janchorizo/tfm-slr/blob/revision/wos_2.ris)
 TOPIC: (( ( ( rna-seq OR rnaseq OR "rna seq*" ) OR "whole exome sequenc*" ) AND ( (("pipeline" OR “schem*”) AND "implement*") OR ("framework" AND "software") OR "automate" OR ("experiment" AND "reproducibility") ) ))
 Refined by: RESEARCH DOMAINS: ( SCIENCE TECHNOLOGY ) AND RESEARCH DOMAINS: ( SCIENCE TECHNOLOGY ) AND DOCUMENT TYPES: ( ARTICLE ) AND Databases: ( WOS OR MEDLINE )
 Search language=Auto  
 
-#### Scopus 2 (513) (https://github.com/Janchorizo/tfm-slr/blob/revision/scopus_2.ris)[scopus_2.ris]
+#### Scopus 2 (513) [scopus_2.ris](https://github.com/Janchorizo/tfm-slr/blob/revision/scopus_2.ris)
 TITLE-ABS-KEY ( ( ( rna-seq OR rnaseq OR "rna seq*" ) OR "whole exome sequenc*" ) 
 AND ( (("pipeline" OR “schem*”) AND "implement*")
     OR ("framework" AND "software") 
