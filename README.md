@@ -129,7 +129,8 @@ the research questions, it is excluded from the list of articles to be used in t
 There were a total of __69__ articles that were rejected while applying the quality criteria, 
 because of unfulfillment of the inclusion criteria or irrelevance to the proposed research questions.
 
-## Applying quality checks to the articles [to_eval.ris.filtered](https://github.com/Janchorizo/tfm-slr/blob/revision/to_eval.ris.fltered)
+## Applying quality checks to the articles [to_eval.ris.filtered](https://github.com/Janchorizo/tfm-slr/blob/revision/to_eval.ris.filtered)
+
 To ensure that the revised articles contribute in a suficient manner, and with a minimum of alignment
 to the research questions proposed, a set of quality checks are applyed to each individual article.
 Each of the questions contributes with a different value, adding up to a maximum of 7.
